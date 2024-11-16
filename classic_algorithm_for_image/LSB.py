@@ -11,13 +11,17 @@ def encode_image(image_path, secret_text, output_path):
     encoded_img = img.copy()
     data_index = 0
 
+    if img.mode == "RGB":
+        RGBA_index = 3
+    elif img.mode == "RGBA":
+        RGBA_index = 4
+
     for y in range(img.height):
         if data_index >= len(binary_secret_text):
             break
         for x in range(img.width):
             pixel = list(img.getpixel((x, y)))
             # Количество каналов
-            RGBA_index = 4
             for i in range(RGBA_index):  # RGBA каналы
                 if data_index < len(binary_secret_text):
                     # Заменяем LSB на бит из текста
@@ -34,11 +38,15 @@ def decode_image(image_path):
     """Декодирует текст из изображения."""
     img = Image.open(image_path)
     binary_secret_text = ''
+
+    if img.mode == "RGB":
+        RGBA_index = 3
+    elif img.mode == "RGBA":
+        RGBA_index = 4
     
     for y in range(img.height):
         for x in range(img.width):
             pixel = img.getpixel((x, y))
-            RGBA_index = 4
             for i in range(RGBA_index):  # RGBA каналы
                 binary_secret_text += str(pixel[i] & 1)
 
