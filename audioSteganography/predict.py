@@ -15,7 +15,7 @@ import librosa.display
 import librosa.feature
 import matplotlib.pyplot as plt
 
-# from test_with_text_to_spech import speech_to_text
+from text_to_spech import text_to_speech
 
 log.basicConfig(format='%(asctime)s.%(msecs)06d: %(message)s',
                 datefmt='%Y-%m-%d %H:%M:%S', level=log.INFO)
@@ -24,20 +24,20 @@ log.basicConfig(format='%(asctime)s.%(msecs)06d: %(message)s',
 parser = argparse.ArgumentParser(
     description="Load a audio steganorgaphy tensorflow model and hide a secret message inside a cover message")
 parser.add_argument("--model", required=True, help="Path to trained model")
-parser.add_argument("--secret", required=True,
-                    help="Path to secret audio file")
+# parser.add_argument("--secret", required=True,
+#                     help="Path to secret audio file")
 parser.add_argument("--cover", required=True, help="Path to cover audio file")
 parser.add_argument('--skip-plot', '-sP', required=False,
                     help='Disable plotting', action='store_true')
 args = vars(parser.parse_args())
 
+secret = 'input_secret.wav'
 # config
 output_dir = os.path.join(
     constants.data_dir, 'predictions', os.path.basename(args['model']))
 
-
 # convert wav to spectrograms
-secret_in = utils.convert_wav_to_stft_spec(args['secret'])
+secret_in = utils.convert_wav_to_stft_spec(text_to_speech())
 cover_in = utils.convert_wav_to_stft_spec(args['cover'])
 
 assert cover_in.shape[1] >= secret_in.shape[1], 'Покрытие должно быть длиннее чем секретное'
@@ -58,8 +58,8 @@ secret_out, cover_out = mdl.predict(
 os.makedirs(output_dir, exist_ok=True)
 shutil.copyfile(args['cover'], os.path.join(
     output_dir, 'input_cover_' + os.path.basename(args['cover'])), follow_symlinks=True)
-shutil.copyfile(args['secret'], os.path.join(
-    output_dir, 'input_secret_' + os.path.basename(args['secret'])), follow_symlinks=True)
+shutil.copyfile(secret, os.path.join(
+    output_dir, 'input_secret_' + os.path.basename(secret)), follow_symlinks=True)
 
 # convert output spectrograms to wav
 secret_out = secret_out[:, :, :secret_in_begin, :]
@@ -70,7 +70,7 @@ for output in [
         'fname': 'output_cover_' + os.path.basename(args['cover'])
     }, {
         'specgram': secret_out,
-        'fname': 'output_secret_' + os.path.basename(args['secret'])
+        'fname': 'output_secret_' + os.path.basename(secret)
     }
 ]:
     print(output['specgram'].shape)
