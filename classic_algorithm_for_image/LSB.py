@@ -75,10 +75,4 @@ if __name__ == "__main__":
     # Декодирование текста из изображения
     decoded_text = decode_image('output_image.png')
     print(f"Декодированный текст: {decoded_text}")
-
-
-
-    
-
-
     
