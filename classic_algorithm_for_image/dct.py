@@ -22,6 +22,10 @@ def encoder(image_path, message, output_path):
     ]
 
     message_bits = ''.join(format(ord(char), '011b') for char in message)
+    end_message = '11111111111'
+    message_bits = message_bits + end_message
+    # print(message_bits)
+    # exit()
     bit_idx = 0
     P = 25
     for block_idx, block in enumerate(blocks):
@@ -63,7 +67,7 @@ def encoder(image_path, message, output_path):
 
     Image.fromarray(image_data).save(output_path)
 
-def decoder(image_path, message_length):
+def decoder(image_path):
     image = Image.open(image_path)
     image_data = np.array(image, dtype=np.uint8)
     blue_channel = image_data[:, :, 2]
@@ -76,10 +80,9 @@ def decoder(image_path, message_length):
     ]
 
     message_bits = []
-
+    end_message = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    i = 0
     for block in blocks:
-        if len(message_bits) >= message_length * 11:
-            break
 
         dct_block = dct2(block)
         w1 = abs(dct_block[4, 4])
@@ -88,19 +91,22 @@ def decoder(image_path, message_length):
             message_bits.append(0)
         elif w2 > w1:
             message_bits.append(1)
+        i += 1
+        if len(message_bits) >= 11:
+            if message_bits[-11:] == end_message:
+                break
 
-    message_bits = message_bits[:message_length * 11]
     message = ''.join(
         chr(int(''.join(map(str, message_bits[i:i + 11])), 2))
-        for i in range(0, len(message_bits), 11)
+        for i in range(0, len(message_bits) - 10, 11)
     )
     return message
 
 input_image = 'lenna.png'
 output_image = 'test.png'
-message = 'хуй'
+message = 'hello'
 
 encoder(input_image, message, output_image)
 
-extracted_message = decoder(output_image, len(message))
+extracted_message = decoder(output_image)
 print('Извлечённое сообщение:', extracted_message)
