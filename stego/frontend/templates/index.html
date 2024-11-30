@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UniversalStego</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .background-animation {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1%, rgba(0, 0, 0, 0.3) 100%);
+            animation: pixelAnimation 6s infinite ease-in-out, scanline 10s infinite linear;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        @keyframes pixelAnimation {
+            0% {
+                transform: scale(0.7);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(0.7);
+                opacity: 0.5;
+            }
+        }
+
+        body {
+            background: #0f0f0f;
+            color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin-top: 20px;
+            flex: 1;
+        }
+
+        .navbar {
+            background-color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            padding: 3px 10px; /* Уменьшена высота navbar */
+            position: relative; /* Для позиционирования логотипа MIPT */
+        }
+
+        .navbar-brand img {
+            width: 130px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .navbar-brand img:hover {
+            transform: scale(1.1);
+        }
+
+
+
+        /* Контейнер для логотипа MIPT */
+        /* .navbar .mipt-logo { */
+            /* position: absolute; Позиционируем по центру */
+            /* top: 50%; Центрируем по вертикали */
+            /* left: 50%; */
+            /* transform: translate(-50%, -50%); Центрируем по горизонтали и вертикали */
+            /* max-width: 90%; Логотип будет растягиваться, но не выходить за пределы */
+            /* height: auto; */
+        /* } */
+
+        .form-container {
+            background-color: #34495e;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+        }
+        .form-container button {
+            background-color: #e74c3c;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 6px;
+            width: 100%;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+        .form-container button:hover {
+            background-color: #c0392b;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            padding: 20px 0; /* Увеличена высота footer */
+            color: #fff;
+            text-align: center;
+            margin-top: auto;
+            display: flex; /* Flexbox для центровки */
+            justify-content: center; /* Центрируем содержимое по горизонтали */
+            align-items: center; /* Центрируем по вертикали */
+            gap: 15px; /* Добавлен небольшой промежуток между логотипом и текстом */
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem; /* Немного увеличен размер шрифта для компактности */
+        }
+
+        /* Для логотипа MIPT */
+        footer .mipt-logo img {
+            width: 60px; /* Можно подогнать ширину логотипа */
+            height: auto;
+            max-width: 100%; /* Логотип не будет выходить за пределы */
+        }
+
+
+        .processed-file-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .processed-file-container img {
+            width: 80%;
+            max-width: 400px;
+            margin: 10px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            display: block;
+        }
+
+        .processed-file-container a {
+            display: block;
+            margin: 10px auto;
+            padding: 8px 15px;
+            background-color: #2ecc71;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            max-width: 200px;
+        }
+
+        .decoded-text-container {
+            background-color: #34495e;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            margin: 15px auto;
+            max-width: 80%;
+            word-wrap: break-word;
+            text-align: center;
+        }
+
+        .decoded-text-container h5 {
+            color: #e74c3c;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .decoded-text-container p {
+            color: #f0f0f0;
+            font-size: 0.95rem;
+        }
+        
+        .processed-file-container a:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-animation"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <!-- Логотип UniversalStego слева -->
+            <a class="navbar-brand" href="/">
+                <img src="/static/final_logo.svg" alt="UniversalStego Logo" />
+            </a>
+        </div>
+    
+        <!-- Логотип MIPT, который будет по центру -->
+        <!-- <a href="https://mipt.ru/" class="mipt-logo">
+            <img src="/static/mipt.svg" alt="MIPT Logo">
+        </a> -->
+    </nav>       
+
+    {% if not error and not processed_image and not processed_audio and not decoded_text %}
+    <div class="container">
+        <h1 class="text-center">Steganography Service</h1>
+        <p class="text-center">Welcome to the UniversalStego service. Choose an option below to begin.</p>
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <div class="container col-8 text-center mb-4">
+        <div class="alert alert-danger">
+            Не получилось :( {{ error }}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if not processed_image and not processed_audio and not decoded_text %}
+    <div class="container col-8 mb-4">
+        <form class="form-container" method="post" action="" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="stegoType" class="form-label">Выберите тип стеганографии</label><br>
+                <input type="radio" id="image" name="stego_type" value="image" checked>
+                <label for="image">Изображения</label><br>
+                <input type="radio" id="audio" name="stego_type" value="audio">
+                <label for="audio">Аудио</label>
+            </div>
+
+            <div class="mb-3">
+                <label for="algorithm" class="form-label">Выберите алгоритм</label>
+                <select class="form-select" id="algorithm" name="algorithm">
+                    <!-- Алгоритмы для изображений -->
+                    <option value="lsb" class="image-algorithm">LSB</option>
+                    <option value="dct" class="image-algorithm">DCT</option>
+                    <option value="neural" class="image-algorithm">Нейронная сеть</option>
+            
+                    <!-- Алгоритмы для аудио -->
+                    <option value="lsb" class="audio-algorithm">LSB</option>
+                    <option value="phase" class="audio-algorithm">Phase</option>
+                    <option value="neural" class="audio-algorithm">Нейронная сеть</option>
+                </select>
+            </div>
+            
+
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Загрузите файл для обработки</label>
+                <input type="file" class="form-control" id="formFile" name="file">
+            </div>
+
+            <div class="mb-3" id="text-input-container" style="display:none;">
+                <label for="inputText" class="form-label">Введите текст для кодирования</label>
+                <textarea class="form-control" id="inputText" name="input_text" rows="4"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="action" class="form-label">Выберите действие</label><br>
+                <input type="radio" id="encode" name="action" value="encode">
+                <label for="encode">Закодировать</label><br>
+                <input type="radio" id="decode" name="action" value="decode" checked>
+                <label for="decode">Декодировать</label>
+            </div>
+
+            <button type="submit" class="btn w-100">Обработать</button>
+        </form>
+    </div>
+    {% endif %}
+
+    <div class="container">
+        {% if processed_image %}
+        <div class="processed-file-container">
+            <img src="{{ processed_image }}" class="rounded-3 img-fluid" alt="Processed Image">
+            <a href="{{ download_link }}" download>Скачать изображение</a>
+        </div>
+        {% endif %}
+
+        {% if processed_audio %}
+        <div class="processed-file-container">
+            <audio controls>
+                <source src="{{ processed_audio }}" type="audio/mpeg">
+                Ваш браузер не поддерживает воспроизведение аудио.
+            </audio>
+            <a href="{{ download_link }}" download>Скачать аудио</a>
+        </div>
+        {% endif %}
+
+        {% if decoded_text %}
+        <div class="decoded-text-container">
+            <h5>Распознанный текст:</h5>
+            <p>{{ decoded_text }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <footer>
+        <!-- Логотип MIPT -->
+        <a href="https://mipt.ru/" class="mipt-logo">
+            <img src="/static/mipt.svg" alt="MIPT Logo">
+        </a>
+        <!-- Текст с авторскими правами -->
+        <p>© 2024 Проект по защите информации</p>
+    </footer>
+
+    <script>
+        // Функция для обновления доступных алгоритмов в зависимости от типа стеганографии
+        function updateAlgorithmOptions() {
+            const stegoType = document.querySelector('input[name="stego_type"]:checked').value;
+    
+            const imageAlgorithms = document.querySelectorAll('.image-algorithm');
+            const audioAlgorithms = document.querySelectorAll('.audio-algorithm');
+            
+            if (stegoType === "image") {
+                // Показываем алгоритмы для изображений
+                imageAlgorithms.forEach(option => option.style.display = 'block');
+                audioAlgorithms.forEach(option => option.style.display = 'none');
+            } else if (stegoType === "audio") {
+                // Показываем алгоритмы для аудио
+                audioAlgorithms.forEach(option => option.style.display = 'block');
+                imageAlgorithms.forEach(option => option.style.display = 'none');
+            }
+        }
+    
+        // Функция для обновления видимости текстового поля в зависимости от выбранного действия (encode/decode)
+        function updateTextInputVisibility() {
+            const action = document.querySelector('input[name="action"]:checked').value;
+            const textInputContainer = document.getElementById('text-input-container');
+            
+            if (action === "encode") {
+                textInputContainer.style.display = 'block'; // Показываем поле
+            } else {
+                textInputContainer.style.display = 'none'; // Скрываем поле
+            }
+        }
+    
+        // Слушаем изменение типа стеганографии (Изображение или Аудио)
+        document.querySelectorAll('input[name="stego_type"]').forEach((radio) => {
+            radio.addEventListener('change', function () {
+                updateAlgorithmOptions(); // Обновляем доступные алгоритмы
+            });
+        });
+    
+        // Слушаем изменение действия (Encode или Decode)
+        document.querySelectorAll('input[name="action"]').forEach((radio) => {
+            radio.addEventListener('change', function () {
+                updateTextInputVisibility(); // Обновляем видимость текстового поля
+            });
+        });
+    
+        // Инициализация страницы: при загрузке проверим, какой тип стеганографии выбран, и обновим алгоритмы
+        window.addEventListener('DOMContentLoaded', (event) => {
+            updateAlgorithmOptions(); // Вызываем обновление доступных алгоритмов при загрузке страницы
+            updateTextInputVisibility(); // Проверяем, нужно ли показывать текстовое поле
+        });
+    </script>
+    
+      
+</body>
+
+</html>

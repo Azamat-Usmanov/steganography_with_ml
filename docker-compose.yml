@@ -1,0 +1,47 @@
+services:
+  stego-frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend/Dockerfile
+    ports:
+      - "7777:8080"
+    networks:
+      - stego_network
+    volumes:
+      - ./stego/frontend:/app/stego/frontend
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    # environment:
+    #   - NVIDIA_VISIBLE_DEVICES=all
+    image: stego-frontend:0.1.0
+
+  stego-backend:
+    build:
+      context: .
+      dockerfile: docker/backend/Dockerfile
+    # ports:
+    #   - "8000:8000"
+    #   - "8001:8001"
+    #   - "8002:8002"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - ./stego/backend:/mnt
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    networks:
+      - stego_network
+    image: stego-backend:0.1.0
+
+networks:
+  stego_network:
