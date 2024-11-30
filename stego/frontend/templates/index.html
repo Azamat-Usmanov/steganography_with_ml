@@ -227,10 +227,18 @@
             <div class="mb-3">
                 <label for="algorithm" class="form-label">Выберите алгоритм</label>
                 <select class="form-select" id="algorithm" name="algorithm">
-                    <option value="simple">Простой алгоритм</option>
-                    <option value="neural">Нейросетевой алгоритм</option>
+                    <!-- Алгоритмы для изображений -->
+                    <option value="lsb" class="image-algorithm">LSB</option>
+                    <option value="dct" class="image-algorithm">DCT</option>
+                    <option value="neural" class="image-algorithm">Нейронная сеть</option>
+            
+                    <!-- Алгоритмы для аудио -->
+                    <option value="lsb" class="audio-algorithm">LSB</option>
+                    <option value="phase" class="audio-algorithm">Phase</option>
+                    <option value="neural" class="audio-algorithm">Нейронная сеть</option>
                 </select>
             </div>
+            
 
             <div class="mb-3">
                 <label for="formFile" class="form-label">Загрузите файл для обработки</label>
@@ -291,26 +299,58 @@
     </footer>
 
     <script>
+        // Функция для обновления доступных алгоритмов в зависимости от типа стеганографии
+        function updateAlgorithmOptions() {
+            const stegoType = document.querySelector('input[name="stego_type"]:checked').value;
+    
+            const imageAlgorithms = document.querySelectorAll('.image-algorithm');
+            const audioAlgorithms = document.querySelectorAll('.audio-algorithm');
+            
+            if (stegoType === "image") {
+                // Показываем алгоритмы для изображений
+                imageAlgorithms.forEach(option => option.style.display = 'block');
+                audioAlgorithms.forEach(option => option.style.display = 'none');
+            } else if (stegoType === "audio") {
+                // Показываем алгоритмы для аудио
+                audioAlgorithms.forEach(option => option.style.display = 'block');
+                imageAlgorithms.forEach(option => option.style.display = 'none');
+            }
+        }
+    
+        // Функция для обновления видимости текстового поля в зависимости от выбранного действия (encode/decode)
+        function updateTextInputVisibility() {
+            const action = document.querySelector('input[name="action"]:checked').value;
+            const textInputContainer = document.getElementById('text-input-container');
+            
+            if (action === "encode") {
+                textInputContainer.style.display = 'block'; // Показываем поле
+            } else {
+                textInputContainer.style.display = 'none'; // Скрываем поле
+            }
+        }
+    
+        // Слушаем изменение типа стеганографии (Изображение или Аудио)
         document.querySelectorAll('input[name="stego_type"]').forEach((radio) => {
             radio.addEventListener('change', function () {
-                if (this.value === "image" && document.querySelector('input[name="action"][value="encode"]:checked')) {
-                    document.getElementById('text-input-container').style.display = 'block';
-                } else {
-                    document.getElementById('text-input-container').style.display = 'none';
-                }
+                updateAlgorithmOptions(); // Обновляем доступные алгоритмы
             });
         });
-
+    
+        // Слушаем изменение действия (Encode или Decode)
         document.querySelectorAll('input[name="action"]').forEach((radio) => {
             radio.addEventListener('change', function () {
-                if (this.value === "encode") {
-                    document.getElementById('text-input-container').style.display = 'block';
-                } else {
-                    document.getElementById('text-input-container').style.display = 'none';
-                }
+                updateTextInputVisibility(); // Обновляем видимость текстового поля
             });
         });
+    
+        // Инициализация страницы: при загрузке проверим, какой тип стеганографии выбран, и обновим алгоритмы
+        window.addEventListener('DOMContentLoaded', (event) => {
+            updateAlgorithmOptions(); // Вызываем обновление доступных алгоритмов при загрузке страницы
+            updateTextInputVisibility(); // Проверяем, нужно ли показывать текстовое поле
+        });
     </script>
+    
+      
 </body>
 
 </html>

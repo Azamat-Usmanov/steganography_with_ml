@@ -1,0 +1,1141 @@
+2024-11-29 18:24:45,042 - ERROR - Ошибка обработки файла: 'bytearray' object has no attribute 'file'
+2024-11-29 18:24:45,048 - INFO - 172.20.0.1 [29/Nov/2024:18:24:45 +0000] "POST / HTTP/1.1" 200 10461 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 18:25:21,032 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=simple, input_text=пизда пингвина
+2024-11-29 18:25:21,037 - INFO - Начата обработка изображения с текстом.
+2024-11-29 18:25:21,444 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 18:25:21,456 - INFO - 172.20.0.1 [29/Nov/2024:18:25:21 +0000] "POST / HTTP/1.1" 200 2562801 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 18:25:26,896 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 18:25:26,904 - INFO - 172.20.0.1 [29/Nov/2024:18:25:26 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 242 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:40:15,493 - INFO - GET запрос получен.
+2024-11-29 19:40:15,525 - INFO - 172.20.0.1 [29/Nov/2024:19:40:15 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:40:48,310 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=simple, input_text=хуйок
+2024-11-29 19:40:48,320 - INFO - Начата обработка изображения с текстом.
+2024-11-29 19:40:48,709 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 19:40:48,722 - INFO - 172.20.0.1 [29/Nov/2024:19:40:48 +0000] "POST / HTTP/1.1" 200 2562833 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:42:10,247 - INFO - GET запрос получен.
+2024-11-29 19:42:10,256 - INFO - 172.20.0.1 [29/Nov/2024:19:42:10 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:42:23,374 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=simple, input_text=хуйок
+2024-11-29 19:42:23,380 - INFO - Начата обработка изображения с текстом.
+2024-11-29 19:42:23,407 - INFO - Закодировано изображение с помощью меода lsb. Текст: хуйок.
+2024-11-29 19:42:23,766 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 19:42:23,778 - INFO - 172.20.0.1 [29/Nov/2024:19:42:23 +0000] "POST / HTTP/1.1" 200 2562833 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:42:33,155 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 19:42:33,165 - INFO - 172.20.0.1 [29/Nov/2024:19:42:33 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 242 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:42:34,865 - INFO - GET запрос получен.
+2024-11-29 19:42:34,866 - INFO - 172.20.0.1 [29/Nov/2024:19:42:34 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:42:43,719 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 19:42:43,719 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 19:42:44,625 - INFO - Изображение декодировано методом simple.
+2024-11-29 19:42:44,626 - INFO - 172.20.0.1 [29/Nov/2024:19:42:43 +0000] "POST / HTTP/1.1" 200 8176 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:42:50,387 - INFO - GET запрос получен.
+2024-11-29 19:42:50,388 - INFO - 172.20.0.1 [29/Nov/2024:19:42:50 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:43:26,705 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=simple, input_text=пизда пингвина
+2024-11-29 19:43:26,705 - INFO - Начата обработка изображения с текстом.
+2024-11-29 19:43:26,734 - INFO - Закодировано изображение с помощью меода lsb. Текст: пизда пингвина.
+2024-11-29 19:43:27,108 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 19:43:27,121 - INFO - 172.20.0.1 [29/Nov/2024:19:43:26 +0000] "POST / HTTP/1.1" 200 2562845 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:43:35,565 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 19:43:35,569 - INFO - 172.20.0.1 [29/Nov/2024:19:43:35 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 242 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:43:37,527 - INFO - GET запрос получен.
+2024-11-29 19:43:37,529 - INFO - 172.20.0.1 [29/Nov/2024:19:43:37 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:43:47,506 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 19:43:47,507 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 19:43:48,391 - INFO - Изображение декодировано методом simple.
+2024-11-29 19:43:48,392 - INFO - 172.20.0.1 [29/Nov/2024:19:43:47 +0000] "POST / HTTP/1.1" 200 8193 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:43:55,275 - INFO - GET запрос получен.
+2024-11-29 19:43:55,276 - INFO - 172.20.0.1 [29/Nov/2024:19:43:55 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:46:04,144 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=simple, input_text=хуй
+2024-11-29 19:46:04,144 - INFO - Начата обработка изображения с текстом.
+2024-11-29 19:46:04,170 - INFO - Закодировано изображение с помощью меода lsb. Текст: хуй.
+2024-11-29 19:46:04,532 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 19:46:04,545 - INFO - 172.20.0.1 [29/Nov/2024:19:46:04 +0000] "POST / HTTP/1.1" 200 2562857 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:46:05,332 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 19:46:05,337 - INFO - 172.20.0.1 [29/Nov/2024:19:46:05 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 242 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:46:06,534 - INFO - GET запрос получен.
+2024-11-29 19:46:06,534 - INFO - 172.20.0.1 [29/Nov/2024:19:46:06 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:46:11,877 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 19:46:11,877 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 19:46:12,767 - INFO - Изображение декодировано методом simple.
+2024-11-29 19:46:12,768 - INFO - 172.20.0.1 [29/Nov/2024:19:46:11 +0000] "POST / HTTP/1.1" 200 8172 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 19:46:57,858 - INFO - GET запрос получен.
+2024-11-29 19:46:57,859 - INFO - 172.20.0.1 [29/Nov/2024:19:46:57 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:02:23,196 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=simple, input_text=хуйок
+2024-11-29 20:02:23,197 - ERROR - Ошибка обработки файла: a bytes-like object is required, not '_io.BufferedRandom'
+2024-11-29 20:02:23,202 - INFO - 172.20.0.1 [29/Nov/2024:20:02:23 +0000] "POST / HTTP/1.1" 200 10468 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:05:44,569 - INFO - GET запрос получен.
+2024-11-29 20:05:44,581 - INFO - 172.20.0.1 [29/Nov/2024:20:05:44 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:06:10,828 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=simple, input_text=хуйокок
+2024-11-29 20:06:10,855 - ERROR - Ошибка обработки файла: cannot identify image file <_io.BufferedRandom name=10>
+2024-11-29 20:06:10,855 - INFO - 172.20.0.1 [29/Nov/2024:20:06:10 +0000] "POST / HTTP/1.1" 200 10464 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:07:07,832 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=simple, input_text=опопо
+2024-11-29 20:07:07,837 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 20:07:07,859 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 20:07:07,866 - INFO - Аудиофайл закодирован с помощью LSB. result='/tmp/encoded_audio.mp3'
+2024-11-29 20:07:07,878 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.mp3
+2024-11-29 20:07:07,908 - INFO - 172.20.0.1 [29/Nov/2024:20:07:07 +0000] "POST / HTTP/1.1" 200 5971489 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:07:10,189 - INFO - 172.20.0.1 [29/Nov/2024:20:07:10 +0000] "GET /favicon.ico HTTP/1.1" 404 173 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:12:27,053 - INFO - GET запрос получен.
+2024-11-29 20:12:27,060 - INFO - 172.20.0.1 [29/Nov/2024:20:12:27 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:12:56,247 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=simple, input_text=Это достойно тридцати баллов
+2024-11-29 20:12:56,253 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 20:12:56,258 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 20:12:56,267 - INFO - Аудиофайл закодирован с помощью LSB. result='/tmp/encoded_audio.mp3'
+2024-11-29 20:12:56,278 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.mp3
+2024-11-29 20:12:56,306 - INFO - 172.20.0.1 [29/Nov/2024:20:12:56 +0000] "POST / HTTP/1.1" 200 5971489 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:12:57,406 - INFO - 172.20.0.1 [29/Nov/2024:20:12:57 +0000] "GET /favicon.ico HTTP/1.1" 404 173 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:13:00,156 - INFO - Запрос на скачивание файла: /tmp/encoded_audio.mp3
+2024-11-29 20:13:00,188 - INFO - 172.20.0.1 [29/Nov/2024:20:13:00 +0000] "GET /download?file=/tmp/encoded_audio.mp3 HTTP/1.1" 200 243 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:13:03,307 - INFO - GET запрос получен.
+2024-11-29 20:13:03,307 - INFO - 172.20.0.1 [29/Nov/2024:20:13:03 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:13:27,390 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=simple, input_text=
+2024-11-29 20:13:27,390 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='simple'.
+2024-11-29 20:13:27,393 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 20:13:27,398 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-29 20:13:27,845 - INFO - Аудиофайл раскодирован с помощью LSB. decoded_text='Это достойно тридцати баллов'
+2024-11-29 20:13:27,846 - INFO - 172.20.0.1 [29/Nov/2024:20:13:27 +0000] "POST / HTTP/1.1" 200 8219 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:18:22,375 - INFO - GET запрос получен.
+2024-11-29 20:18:22,390 - INFO - 172.20.0.1 [29/Nov/2024:20:18:22 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:18:22,411 - INFO - 172.20.0.1 [29/Nov/2024:20:18:22 +0000] "GET /static/mipt.svg HTTP/1.1" 304 178 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:18:36,682 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=simple, input_text=хуйхуй
+2024-11-29 20:18:36,689 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 20:18:36,694 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 20:18:36,700 - INFO - Аудиофайл закодирован с помощью LSB. result='/tmp/encoded_audio.wav'
+2024-11-29 20:18:36,711 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.wav
+2024-11-29 20:18:36,739 - INFO - 172.20.0.1 [29/Nov/2024:20:18:36 +0000] "POST / HTTP/1.1" 200 5971489 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:18:38,268 - INFO - Запрос на скачивание файла: /tmp/encoded_audio.wav
+2024-11-29 20:18:38,278 - INFO - 172.20.0.1 [29/Nov/2024:20:18:38 +0000] "GET /download?file=/tmp/encoded_audio.wav HTTP/1.1" 200 244 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:24:48,136 - INFO - GET запрос получен.
+2024-11-29 20:24:48,146 - INFO - 172.20.0.1 [29/Nov/2024:20:24:48 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:24:48,167 - INFO - 172.20.0.1 [29/Nov/2024:20:24:48 +0000] "GET /static/final_logo.svg HTTP/1.1" 304 178 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:25:01,006 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=simple, input_text=ывфа
+2024-11-29 20:25:01,026 - ERROR - Ошибка обработки файла: cannot identify image file <_io.BufferedRandom name=10>
+2024-11-29 20:25:01,026 - INFO - 172.20.0.1 [29/Nov/2024:20:25:00 +0000] "POST / HTTP/1.1" 200 10464 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:25:16,607 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=simple, input_text=ыфва
+2024-11-29 20:25:16,611 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 20:25:16,614 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 20:25:16,623 - INFO - Аудиофайл закодирован с помощью LSB. result='/tmp/encoded_audio.wav'
+2024-11-29 20:25:16,634 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.wav
+2024-11-29 20:25:16,663 - INFO - 172.20.0.1 [29/Nov/2024:20:25:16 +0000] "POST / HTTP/1.1" 200 5971489 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:25:18,847 - INFO - 172.20.0.1 [29/Nov/2024:20:25:18 +0000] "GET /favicon.ico HTTP/1.1" 404 173 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:25:20,571 - INFO - Запрос на скачивание файла: /tmp/encoded_audio.wav
+2024-11-29 20:25:20,579 - INFO - 172.20.0.1 [29/Nov/2024:20:25:20 +0000] "GET /download?file=/tmp/encoded_audio.wav HTTP/1.1" 200 305 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:25:22,528 - INFO - GET запрос получен.
+2024-11-29 20:25:22,529 - INFO - 172.20.0.1 [29/Nov/2024:20:25:22 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:25:28,841 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=simple, input_text=
+2024-11-29 20:25:28,841 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='simple'.
+2024-11-29 20:25:28,845 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.mp3.
+2024-11-29 20:25:28,851 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-29 20:25:29,312 - INFO - Аудиофайл раскодирован с помощью LSB. decoded_text='ыфва'
+2024-11-29 20:25:29,312 - INFO - 172.20.0.1 [29/Nov/2024:20:25:28 +0000] "POST / HTTP/1.1" 200 8174 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:25:36,127 - INFO - GET запрос получен.
+2024-11-29 20:25:36,128 - INFO - 172.20.0.1 [29/Nov/2024:20:25:36 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:38:18,972 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=оп мусорок
+2024-11-29 20:38:19,001 - INFO - Начата обработка изображения с текстом.
+2024-11-29 20:38:19,032 - ERROR - Ошибка обработки файла: name 'dct2' is not defined
+2024-11-29 20:38:19,038 - INFO - 172.20.0.1 [29/Nov/2024:20:38:18 +0000] "POST / HTTP/1.1" 200 10437 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:38:40,542 - INFO - GET запрос получен.
+2024-11-29 20:38:40,548 - INFO - 172.20.0.1 [29/Nov/2024:20:38:40 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:38:52,875 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=оп мусорок
+2024-11-29 20:38:52,881 - INFO - Начата обработка изображения с текстом.
+2024-11-29 20:38:52,924 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: оп мусорок.
+2024-11-29 20:38:53,308 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 20:38:53,321 - INFO - 172.20.0.1 [29/Nov/2024:20:38:52 +0000] "POST / HTTP/1.1" 200 2564861 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:38:54,609 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 20:38:54,617 - INFO - 172.20.0.1 [29/Nov/2024:20:38:54 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:39:06,499 - INFO - GET запрос получен.
+2024-11-29 20:39:06,500 - INFO - 172.20.0.1 [29/Nov/2024:20:39:06 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:39:16,876 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-29 20:39:16,876 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-29 20:39:16,876 - ERROR - Ошибка обработки файла: 'NoneType' object has no attribute 'read'
+2024-11-29 20:39:16,877 - INFO - 172.20.0.1 [29/Nov/2024:20:39:16 +0000] "POST / HTTP/1.1" 200 10460 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:43:20,708 - INFO - GET запрос получен.
+2024-11-29 20:43:20,720 - INFO - 172.20.0.1 [29/Nov/2024:20:43:20 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:43:28,766 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:43:28,766 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-29 20:43:28,766 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-29 20:43:28,772 - INFO - open_image(uploaded_file).size=(1200, 800)
+2024-11-29 20:43:28,772 - ERROR - Ошибка обработки файла: 'NoneType' object has no attribute 'read'
+2024-11-29 20:43:28,773 - INFO - 172.20.0.1 [29/Nov/2024:20:43:28 +0000] "POST / HTTP/1.1" 200 10460 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:43:55,618 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:43:55,618 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:43:55,618 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:43:56,471 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:43:56,472 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_urldispatcher.py", line 965, in _iter
+    ret = await method()
+  File "/app/stego/frontend/views.py", line 167, in post
+    return render_template(self.template, self.request, ctx)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 176, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_response.py", line 697, in text
+    self._body = text.encode(self.charset)
+UnicodeEncodeError: 'utf-8' codec can't encode character '\udac7' in position 6173: surrogates not allowed
+2024-11-29 20:43:56,476 - INFO - 172.20.0.1 [29/Nov/2024:20:43:55 +0000] "POST / HTTP/1.1" 500 335 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:44:06,239 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:44:06,239 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:44:06,239 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:44:07,121 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:44:07,122 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_urldispatcher.py", line 965, in _iter
+    ret = await method()
+  File "/app/stego/frontend/views.py", line 167, in post
+    return render_template(self.template, self.request, ctx)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 176, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_response.py", line 697, in text
+    self._body = text.encode(self.charset)
+UnicodeEncodeError: 'utf-8' codec can't encode character '\udac7' in position 6173: surrogates not allowed
+2024-11-29 20:44:07,122 - INFO - 172.20.0.1 [29/Nov/2024:20:44:06 +0000] "POST / HTTP/1.1" 500 335 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:45:58,616 - INFO - GET запрос получен.
+2024-11-29 20:45:58,621 - INFO - 172.20.0.1 [29/Nov/2024:20:45:58 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:46:05,105 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:46:05,105 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:46:05,105 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:46:06,011 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:46:06,012 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_urldispatcher.py", line 965, in _iter
+    ret = await method()
+  File "/app/stego/frontend/views.py", line 170, in post
+    return render_template(self.template, self.request, ctx)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 176, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_response.py", line 697, in text
+    self._body = text.encode(self.charset)
+UnicodeEncodeError: 'utf-8' codec can't encode character '\udac7' in position 6173: surrogates not allowed
+2024-11-29 20:46:06,013 - INFO - 172.20.0.1 [29/Nov/2024:20:46:05 +0000] "POST / HTTP/1.1" 500 335 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:48:08,365 - INFO - GET запрос получен.
+2024-11-29 20:48:08,370 - INFO - 172.20.0.1 [29/Nov/2024:20:48:08 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:48:16,834 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:48:16,834 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:48:16,834 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:48:17,715 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:48:17,715 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_urldispatcher.py", line 966, in _iter
+    assert isinstance(ret, StreamResponse)
+AssertionError
+2024-11-29 20:48:17,716 - INFO - 172.20.0.1 [29/Nov/2024:20:48:16 +0000] "POST / HTTP/1.1" 500 335 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:49:01,431 - INFO - GET запрос получен.
+2024-11-29 20:49:01,439 - INFO - 172.20.0.1 [29/Nov/2024:20:49:01 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:49:06,823 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:49:06,823 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:49:06,823 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:49:07,707 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:49:07,708 - INFO - 172.20.0.1 [29/Nov/2024:20:49:06 +0000] "POST / HTTP/1.1" 500 238 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:50:23,643 - INFO - GET запрос получен.
+2024-11-29 20:50:23,651 - INFO - 172.20.0.1 [29/Nov/2024:20:50:23 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:50:29,730 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:50:29,731 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:50:29,731 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:50:30,610 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:50:30,611 - INFO - 172.20.0.1 [29/Nov/2024:20:50:29 +0000] "POST / HTTP/1.1" 200 10607 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:51:15,128 - INFO - GET запрос получен.
+2024-11-29 20:51:15,137 - INFO - 172.20.0.1 [29/Nov/2024:20:51:15 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:51:19,949 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:51:19,949 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:51:19,949 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:51:20,830 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:51:20,831 - INFO - 172.20.0.1 [29/Nov/2024:20:51:19 +0000] "POST / HTTP/1.1" 200 10605 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:51:39,131 - INFO - GET запрос получен.
+2024-11-29 20:51:39,144 - INFO - 172.20.0.1 [29/Nov/2024:20:51:39 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:51:43,640 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:51:43,640 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:51:43,640 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:51:44,525 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:51:44,526 - INFO - 172.20.0.1 [29/Nov/2024:20:51:43 +0000] "POST / HTTP/1.1" 200 10606 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:51:52,615 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:51:52,616 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-29 20:51:52,616 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-29 20:51:52,616 - INFO - open_image(uploaded_file).size=(1200, 800)
+2024-11-29 20:51:52,616 - ERROR - Ошибка обработки файла: 'NoneType' object has no attribute 'read'
+2024-11-29 20:51:52,617 - INFO - 172.20.0.1 [29/Nov/2024:20:51:52 +0000] "POST / HTTP/1.1" 200 10460 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:53:25,133 - INFO - GET запрос получен.
+2024-11-29 20:53:25,147 - INFO - 172.20.0.1 [29/Nov/2024:20:53:25 +0000] "GET / HTTP/1.1" 200 10404 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:53:29,657 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:53:29,657 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=simple, input_text=
+2024-11-29 20:53:29,657 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='simple'.
+2024-11-29 20:53:30,562 - INFO - Изображение декодировано методом simple. Текст: U䕣ᘸﭾ䰴聨␭Լᑼ⒱శᑹ-䔰羶龍\udac7蠻哸ឰ總激蛻뭬ӕ鹊飹⛿刭ﻖ噆녈\ud895凎䷮Ჭ씠֥呒꤬샰修坁\udf5b꙼憄㻽Ꜣ㙍섴ຆ䅝⟨蒾ᘹ깽袣᯶ɐ謆泙䛺㧹譵ᑃ鷫兣汿럆ꢔ鉗܇ᵶ뎢忊꠮귷燫绦೥ﬁ薋鏆誁넹ಚ᭩忆㮔㿛ࠛ淹鈨伄䫨ȵ㿠ૡ䝴쇠䞉难攠Ṁ钂ę毨풧ຫ쎜Ŀ娷隲㻧ᴚ冪룝㟋粋ᵎⅨᱤᏩⲴ亜䑍\udc22恦洈츾驙॥첬젩죅豕㿔ꖶ혱읚䱙姷㚰㝅﫫冸굎ⷾ\udb6a꩕퓚㳼ࠇ샳콶읹酗ⶲ쪢̀⃜阓썭撱䫓ﯧ朹⥣䵋嶕죚覨ꑔ糛\udb13굕윤딸\udc92ꂜ㭢瘧燭ﱩ蝤멯᜕㩔銛䣣趴굀vﰊꠟ艳\udb8d꽮\ud8d9쓬仄࿸㭭뼯︀ᡳ੣\udb63蜜 ꭭늜ꬩ넱蛊읫⏉᪋鮷諛䛻襥樴펜襟\udc83띫᭾糸艁㍷∼蒹롄ꄇ锍≖҈颛᤺몵亾睎얷槛儎䶬梌퉢╓隹▉\udaa5厒Ǚ㼓⟏碸菵샡貺땓辰黈騰긬ᤈ툫\udd59挱\udf18却梱⋑表걦ꕤꔚ詠\uda19꩏䑶\udb24类咑\ude14瓻﹋戱쫸죜戣矀䢢㰸鄝㱵⧡堝⓸釀Ʒ褬㬿奞㫗짛Დ\udf96还ꨆ눭푏爹뎨保簥䳽散볝ᬀ䠘䦾剟럟誷汵ꭓ⁠绯熥偩榊춚茖⴮䄻輋愛⍵\ud8d3\ud922䄰맺猵㧽漜ݦ\udc67㱅⋉쉢湓儡ᢝ盭ũ䡰ᱹ⍱㢬ߠ䄸ﷹ绒嫏䧅宕\ud89d쀔믛葹仕븠跏链䄝디榻Ꭾ꒔亻ከ羛\ud8edቊ㣜뛇⎍⒬Ͽ줤咒⟦羌窱穋橺㛜淉喸鱱Ώ僫\ud87d굮䛙읭鬤งᬝ렳踇Ї篦ᅌ윝胣￿뒓웣⬩劯蛞쥬⎸骔新镕䘛碢␵⯜㢢陖ࣚ륬䲶䧤ṁ㎇✡ꕿ롉怇᫰橘㦜饛놼ᄢ㨰ﯠ睍不裟맣朹鲱픔楇\uda72\ud8d3盆釚묾濭䎯爵⌎漑䥫儱띓澏晤䂔殏猟燆\uddf6㲗鑨ሄ伀犆⑝ߘ鷺哫铯⊲ℝ즦蒚欎푲凁픃및㕐珏놪컞\udf1a剞\udcc2朾\udcfb⬦Ꚓ呶빰瘣僟❝㫗짤鍬\udf26냟Ӂ䶪έ䈹宧뀡෢卼骝㴥Ҏ眘㛓놠疗襖褹沊╫쁡脑䲓祻㟝盛섲뻁녁睷黦㿥\udfa4囓䊑鎱擫裊샣훿ඎퟺ㷂๩륷쐮畭짊륬ϸ\udc71㥫礘跆\udf60礮⫋ꦻ摵꥚ử㖹\udf6cᑛ愬߭맣甔兊푑╔닅ፊ蹉㬜굖룜啈\udc6d╬ᒉ╒윓蠍Დ冱䷤鎆㣣\udb46\udd27ᎱΊ꼔ᾜ㦂嗮磞\udb13᳇耇ᾝ룓￸鬃ꢮ᎜⬝耟踇ꪀ㧾喀楂ヤ퓝Ҫ푓砆冪\udf27弁꣬犴펵\udb22樫┕\ud80e㽩듶毟걓䠇ﻭ鈀堆\udff9詷ﱩ賫ᵍ잊붔⪩៟욪놫끎휓긥┧횝㺪ᩨƄיִ𥳐⤟槓砂Ċ뺲럽畽⣡커劦▲鸚\udf93ꐾ抚㺹攙햷꿭歭ꊫ囿鼓耜ꭑ䎏\uda56ꤝ\ude79խᚉ丰镉䝯恭폵མ᱉᨜ꛢ삜᪲巁袊\ude18攐蜠Ģᠻḇ鲓楇誉ꞹ㰫㤆ጫ⯠텕ﭾأ՝檓汏᫱귕ᶮ죢ᢂྊ폫異丠⑄䡩岔靜Ꝑ鵿ӵ鑲灘磴㮰藖덇久둈\udcec瀲䅪Ꞙꓵ듁䢮졍꥘꼎秇┥㣠銩\udae2譽쇃龏ﭳ욚赘㔫卣텔⅕Ⲯ鰈祿辁槖ꖊ䣥\udca7嵶꿾⑻劶\udb5c囙ᱲ핬꥕営꭪磣鸃汶쓬梲㛚䩣汦䜱獣Ἐ꽟耤왼浟臛\ud8e7ᱤᰎ㠰ุ软餵儵⬜缃碀۝醰껌㟤軥ᬄ蟾\ud8db锖奓閥ᑕꫝ癕ᶰ῁㊊哷\udc6d辭僿ꀅ倔Ჭ囊༩셎咊冩룜䜚判獒ꤚ盔ෆ䛱ᤨ籼졈穔ꮈ蘥\udebfፍ㟂㊂띶橙ꕐ ⇀꺶騆买걮Ģ茷稸・䱭쎖㟈샓웉\udfb2勒冉㗢椲๟긓쎶ꯥ폵쀶\ud818폈샢᪲巾ٚᔚ儵룀༢ф珓芸궖ㆆ㺦淋ꌫ㮑ⲭꮭ䶀礠～쁭呏擹ᬀ䣻뜚쳲ゖꇼ뛮䚗᣷沉媪돱构꒰ݰ衟ꙋ蝤웿噀傹乔뉂\udf62䡑씣㲀㨓秡玝匱年䇜鰽囘\udc6d㚓陲络湏᣼㟹䢚든ቍ㫬피䡕㚝넦䛸㬏⍽練奝썼骖㣝⍽媒\uda38궶꭪뚧ᱶꪬ땛喪\udb55釠揼࿁醷ਖ䣣ꦜ鎏枊䪽耟ﻜﱛ梿耸\ud9b1詟⒙᭻฿῱￐燇돢į家휜翠縀ﳱ省엲闟臜᷹䁧呷驰\udeba錿ৰ㶴풑㭢녊ꉸ淾෍셵\ud8d0㺳띁蝟ˢᯗ抭䏉➓\udbde➍\udbbf᠇鵘刂鲊뿘‐㘛坔浈ܪ⒚깇沪쑆阦蠕쀏\udf92㤽\udbcf\udfda摫ᨭꉨ幋溌틇뷍ᄺ멏鄓兇俷ꃎ疩ᓞ퐹む\udc7b鍁叕萢奏镰眒쩁᯾伒疷﷒펫ﭱ髦솢棰䰡㭚霭옻롰\udc81鍴﹈甶\udd9f紬꧝淬샘鞱ꑷ뉕⊕혈맡쒝₂鶊갓ᬳ氏ӿᵷ紐⏢〠풓ݴ쉍计赑㾛ख़ሓ喜뛁蠝헹㓆䎈鰘䂅萻ݬ辜ﯾ겋懕䉞㤐郾褻셺쥃‘ᆏ爻涪哏云툁脠⒔箃莉Ꚛ堷뜚䂬棃걓褝顠㊱Ἣ\udf7e呑忹ߠ卭⭗˛剖핕嚫⑉⪪䫛助媗軱\udc83￸ᱺ餙줜䨒ꩭ뢗ᕛ롃ẫ啛踱熱覵฀\udb16懸쐁︳ꏬ瀞믉흣蜃耇왯㨍縣鈁俩沋ꖎ㵅淀꟰㶻ᒎ땢䵉朧禎被\udecc⮍욖颺섆넶萟뵎묇\udbe3\ud9f8늱鈇벚化鲉䃘⏮ฒ㥬뚶㢊쀷襈鑉䔕ᾎ䠞㨷短ﳕ퀉乐咑᮫栗獿荐䪨韣簒뢻軬䫉俪\udb8c覃Ꮬ㢫卿ᒇ끟뼖우雏裲䦶⊋蠇褈仕侢먏粷鉷盎氾\udaa2㿼㻧饈덶霙ꓚ䷕▗ˬ噝전\udf25咱꫁눤嘷쇅㻡앢⍽좔툔₆〘濰\udffe嶋잵썿輇풔ӳチ왍鑡ꊭ襆받왲ꈐ뭺쌹ֳ㜆屹⻹⅂搹᯵劷ဇ톘맱䖾讣ꘚ듀镢제憰踺閪偷국각蛟ꪬ逌䞉ꚷ庸洖ᡅ䭝얾充ꭑ櫬\udcfd葍ǆ䴴꒪啔궩╪꫕助媪嚫橊꭭ꮄ魼燀쒓\ude44䤤鉫涶\uda94뚤K莉慛啛臎涷줵忸윗⒘\udb0f擄繱掃賟㐱䝬烼燆ἀ㺓㐲샽ྰ誏ᶳ㘿ⲭ䮾⧗唹瘻ؤ᷾俩﹌Ⴢ䭐╖띥䎫좉犩䴽⢡ᲄ籎辇痒કꛄ읐銍﬌涉᏾痛덕綹\udc24෈Ӈ哅꙾傁觻눈誝ؙ褶䞻軞\uda26盛鲤핱柧邰긪︞⛢骇䝓ꫢꊣ\udd2dﻒ嬹궢Ľ喈蛤䯕樸遹㲋ᄇƷ䷛◩웓똷烚冫㲉㔥汐ᅚ銑臃ﾲᠶ䚬楉歑䁏䠥⣓륏뀥ܕ褿綾ፘ⨄ﱭ쇀쏯脇䡄᭱灱끫ྴ鐊㛉諂焒꿊矃鶈槬炲ꢷ쌫炼㭣ᣧ᳄艶탯ƪᵙ얿寧ݟ䝾㧀鰹ꪧ⑮鰀癱뮖빈⃽ĝ옟칒멾詖ꎢ淆盚瀿픝橚웝跱槡쩩댢槙媑⒒䪥檶꭭ꤪꪩ孒䤫啕╒唤샼縿㨽뱀쉎杛잵竤櫕쵈米刼v湆㣚퀿⒜ဇ❯옳﹉ᰓ褿쐉墓裣ﾉ᲏잒먍\udb6d軇ᱱ醁檼ᦈⓩቊꪸ뗆꒸聟옭뤣⹿鿨瓜க⽭脷䇛ꥒ焸ꜜඹ踸釁⏑轢鉉㧤聲ሇ㢹▼玉᷇該烜´鮎熫樟헁爒仼䈶꫱캓ᗏ鉈삛指ʲ궷튏팰᭣ῥ❒΃ﭬ襾钜鏶䫒⩃ᇆ㿡㙎἗褤엒ꤸ뇛᳴컛㔛嚥垏綱쒝ﾤ獣똇ﱰ㮓ቋ熒伟ᶶ⏛᭮䜤떷᪶깶丽啒ｋ膤\udb06䣼懿뭣뼟ꩣ軇烣䀎ߣ릂✜ˠဎ爌愪进ᰛ잒\uda63똂借뛤㢋༇咫ﳧ᪠⎕濞\udda3财䂥譎筬ㄸǀ跆\udc91鎸跬Չ厱읭踤ￆ皵⪿跕쟲啙਍踧惡㱰ⷸ釬ஒ㜜采魵媇뚪ꩊꕭ꤫劶ꪪ嚫洜煕뗱쟼 渶䏣㱎鄏핈嫹褫抭ᕛ槜灎片㠘ꗿ⓬䧄㣡웍쓣觜䐵⒓蠜涶＀܍㐵㬒瘻ᱱ츱한涷䝧቉╭뇇鬕嗸῾঎⸿왡硫᳿靓豕煬鴩줫럤囓뇄髜︾짛縆Ӟ㇑牒趫森㟀鈺뼜ྎ᷆畬湲䭮鈎ⲃ荡눓ㄮ㷹吀亏⯶鈷㵻᤿鵪þ\udff7鏰⤸鳭炜㟿쓉롉寇褁济ጜܴņߢꡉ⒝뇣䐝囔處ꂆ䖿䧶䤤ޘ拤㣾Ĥ읡孿譕밎Β汋牢烇቉⎤㜱긜捖꾴㺪鸮\uda95♆㡈㩫쟸䤜逸䭢焦톛Ოꑬ臛埰ߣn㣤쏭﹡픣팶淸굊ꀿދ䨬㭠㞂\ud804伜᭨\uddb6ꕕ챿齒书唫流鷪Ĥꑲ䎎鉉᭭鷀鉬µ山읣똸⍉⒒䀟룭谌屯ῶ唤ၨ쉱鈝슒䛤釉⒵⿀䫱剕媕땚镕孒囐ߠd쀟￀읬쎱됪햫\udac1ᴫ着姜灎釃迼萿쒝뛛Ḹ㬐㻍鉎\ud89d넼\udb6c䧿ᱶｾê엇燆燄얱신ᶏã╕孒剆琊\uda80\udfff뎎ꐸ\ud8c3襮江櫰瑊傤ᴨ᳀䠶楬岛捕䡁쀼ั岀৑炭煝뷽쪤鋟㤿揿涂孩偶䳬孡苣䇨ᏸ呲䱐ꁉ涹쐤韀艠 寎玉Ꭲﰜ돤蠉〖踸ઈ꩕뽒副浣릷Ố꙱밝냼阄
+2024-11-29 20:53:30,563 - INFO - 172.20.0.1 [29/Nov/2024:20:53:29 +0000] "POST / HTTP/1.1" 200 10606 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:53:51,255 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:53:51,255 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-29 20:53:51,255 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-29 20:53:51,256 - INFO - opened_img.size=(1200, 800)
+2024-11-29 20:53:51,256 - ERROR - Ошибка обработки файла: 'NoneType' object has no attribute 'read'
+2024-11-29 20:53:51,257 - INFO - 172.20.0.1 [29/Nov/2024:20:53:51 +0000] "POST / HTTP/1.1" 200 10460 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:56:06,579 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:56:06,579 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-29 20:56:06,579 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-29 20:56:06,585 - INFO - opened_img.size=(1200, 800)
+2024-11-29 20:56:06,617 - INFO - Изображение декодировано методом dct. Текст: оп мусорок߿
+2024-11-29 20:56:06,622 - INFO - 172.20.0.1 [29/Nov/2024:20:56:06 +0000] "POST / HTTP/1.1" 200 8187 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:56:58,541 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:56:58,541 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=выалфывоал
+2024-11-29 20:56:58,541 - INFO - Начата обработка изображения с текстом.
+2024-11-29 20:56:58,582 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: выалфывоал.
+2024-11-29 20:56:58,937 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 20:56:58,949 - INFO - 172.20.0.1 [29/Nov/2024:20:56:58 +0000] "POST / HTTP/1.1" 200 2564849 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:56:59,920 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 20:56:59,932 - INFO - 172.20.0.1 [29/Nov/2024:20:56:59 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:57:01,092 - INFO - GET запрос получен.
+2024-11-29 20:57:01,093 - INFO - 172.20.0.1 [29/Nov/2024:20:57:01 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:57:08,520 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 20:57:08,520 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-29 20:57:08,520 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-29 20:57:08,520 - INFO - opened_img.size=(1200, 800)
+2024-11-29 20:57:08,552 - INFO - Изображение декодировано методом dct. Текст: выалфывоал
+2024-11-29 20:57:08,552 - INFO - 172.20.0.1 [29/Nov/2024:20:57:08 +0000] "POST / HTTP/1.1" 200 8186 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 20:57:15,206 - INFO - GET запрос получен.
+2024-11-29 20:57:15,207 - INFO - 172.20.0.1 [29/Nov/2024:20:57:15 +0000] "GET / HTTP/1.1" 200 10404 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:04:52,458 - INFO - GET запрос получен.
+2024-11-29 21:04:52,469 - INFO - 172.20.0.1 [29/Nov/2024:21:04:52 +0000] "GET / HTTP/1.1" 200 11870 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:05:01,332 - INFO - GET запрос получен.
+2024-11-29 21:05:01,333 - INFO - 172.20.0.1 [29/Nov/2024:21:05:01 +0000] "GET / HTTP/1.1" 200 11870 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:06:14,644 - INFO - GET запрос получен.
+2024-11-29 21:06:14,654 - INFO - 172.20.0.1 [29/Nov/2024:21:06:14 +0000] "GET / HTTP/1.1" 200 12563 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:29:10,712 - INFO - GET запрос получен.
+2024-11-29 21:29:10,724 - INFO - 172.20.0.1 [29/Nov/2024:21:29:10 +0000] "GET / HTTP/1.1" 200 12720 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:30:22,467 - INFO - GET запрос получен.
+2024-11-29 21:30:22,477 - INFO - 172.20.0.1 [29/Nov/2024:21:30:22 +0000] "GET / HTTP/1.1" 200 11858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:43:08,966 - INFO - GET запрос получен.
+2024-11-29 21:43:08,994 - INFO - 172.20.0.1 [29/Nov/2024:21:43:08 +0000] "GET / HTTP/1.1" 200 11894 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:45:51,199 - INFO - GET запрос получен.
+2024-11-29 21:45:51,209 - INFO - 172.20.0.1 [29/Nov/2024:21:45:51 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:46:08,626 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:46:08,626 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=lsb, input_text=раз раз раз это хардбас
+2024-11-29 21:46:08,632 - INFO - Начата обработка изображения с текстом.
+2024-11-29 21:46:08,660 - INFO - Закодирован текст в изображение с помощью меода lsb. Текст: раз раз раз это хардбас.
+2024-11-29 21:46:09,027 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 21:46:09,040 - INFO - 172.20.0.1 [29/Nov/2024:21:46:08 +0000] "POST / HTTP/1.1" 200 2565028 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:46:10,065 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 21:46:10,076 - INFO - 172.20.0.1 [29/Nov/2024:21:46:10 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:46:11,268 - INFO - GET запрос получен.
+2024-11-29 21:46:11,269 - INFO - 172.20.0.1 [29/Nov/2024:21:46:11 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:46:23,392 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:46:23,392 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=lsb, input_text=
+2024-11-29 21:46:23,392 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='lsb'.
+2024-11-29 21:46:23,392 - INFO - Изображение декодировано методом default.
+2024-11-29 21:46:23,393 - INFO - 172.20.0.1 [29/Nov/2024:21:46:23 +0000] "POST / HTTP/1.1" 200 10389 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:46:28,977 - INFO - GET запрос получен.
+2024-11-29 21:46:28,978 - INFO - 172.20.0.1 [29/Nov/2024:21:46:28 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:50:54,985 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:50:54,985 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=lsb, input_text=lsb text
+2024-11-29 21:50:54,990 - INFO - Начата обработка изображения с текстом.
+2024-11-29 21:50:55,018 - INFO - Закодирован текст в изображение с помощью меода lsb. Текст: lsb text.
+2024-11-29 21:50:55,381 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 21:50:55,398 - INFO - 172.20.0.1 [29/Nov/2024:21:50:54 +0000] "POST / HTTP/1.1" 200 2565028 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:50:56,243 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 21:50:56,253 - INFO - 172.20.0.1 [29/Nov/2024:21:50:56 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:50:56,902 - INFO - GET запрос получен.
+2024-11-29 21:50:56,902 - INFO - 172.20.0.1 [29/Nov/2024:21:50:56 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:51:04,165 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:51:04,165 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=lsb, input_text=
+2024-11-29 21:51:04,165 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='lsb'.
+2024-11-29 21:51:05,083 - INFO - Изображение декодировано методом lsb. Текст: lsb text
+2024-11-29 21:51:05,083 - INFO - 172.20.0.1 [29/Nov/2024:21:51:04 +0000] "POST / HTTP/1.1" 200 10354 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:51:06,594 - INFO - GET запрос получен.
+2024-11-29 21:51:06,595 - INFO - 172.20.0.1 [29/Nov/2024:21:51:06 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:51:19,046 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:51:19,046 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=dct text
+2024-11-29 21:51:19,046 - INFO - Начата обработка изображения с текстом.
+2024-11-29 21:51:19,107 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: dct text.
+2024-11-29 21:51:19,465 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 21:51:19,479 - INFO - 172.20.0.1 [29/Nov/2024:21:51:19 +0000] "POST / HTTP/1.1" 200 2566452 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:51:20,413 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 21:51:20,418 - INFO - 172.20.0.1 [29/Nov/2024:21:51:20 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:51:21,358 - INFO - GET запрос получен.
+2024-11-29 21:51:21,359 - INFO - 172.20.0.1 [29/Nov/2024:21:51:21 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:51:30,656 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:51:30,656 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 21:51:30,656 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 21:51:30,656 - INFO - opened_img.size=(1200, 800)
+2024-11-29 21:51:30,687 - INFO - Изображение декодировано методом dct. Текст: dct text߿
+2024-11-29 21:51:30,688 - INFO - 172.20.0.1 [29/Nov/2024:21:51:30 +0000] "POST / HTTP/1.1" 200 10356 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:52:35,280 - INFO - GET запрос получен.
+2024-11-29 21:52:35,287 - INFO - 172.20.0.1 [29/Nov/2024:21:52:35 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:52:43,567 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:52:43,568 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 21:52:43,568 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 21:52:43,573 - INFO - opened_img.size=(1200, 800)
+2024-11-29 21:52:43,605 - INFO - Изображение декодировано методом dct. Текст: dct text
+2024-11-29 21:52:43,605 - INFO - 172.20.0.1 [29/Nov/2024:21:52:43 +0000] "POST / HTTP/1.1" 200 10354 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:52:52,870 - INFO - GET запрос получен.
+2024-11-29 21:52:52,871 - INFO - 172.20.0.1 [29/Nov/2024:21:52:52 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:53:09,875 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:53:09,875 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй 
+2024-11-29 21:53:09,875 - INFO - Начата обработка изображения с текстом.
+2024-11-29 21:53:09,961 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй .
+2024-11-29 21:53:10,344 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 21:53:10,357 - INFO - 172.20.0.1 [29/Nov/2024:21:53:09 +0000] "POST / HTTP/1.1" 200 2585804 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:53:11,538 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 21:53:11,549 - INFO - 172.20.0.1 [29/Nov/2024:21:53:11 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:53:12,584 - INFO - GET запрос получен.
+2024-11-29 21:53:12,585 - INFO - 172.20.0.1 [29/Nov/2024:21:53:12 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:53:19,276 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 21:53:19,277 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 21:53:19,277 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 21:53:19,277 - INFO - opened_img.size=(1200, 800)
+2024-11-29 21:53:19,372 - INFO - Изображение декодировано методом dct. Текст: хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй эуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй хуй Ӆуй хуй хуй хуй хуй$хуй хчЙ(Ѕуй хуܱ хуй хCй хубئхуй хуХ хуع"ӛ5 хчиӰՅуѹ хUйĞѥуйȰӅsȹ ӅчйǖƀСԹ EѣҘpёc9 ѡҩ޺̠ŅӃйȌՕѫб ӅѓӋƵkҳй8чңл#EтԹ ϺۚԩĠхуи(рЃй ӅуɍՖͱKЙ рщй eтع˫$ۡ¤هун ۳ǎӐޘіΧɅȴӣҁԤɄΝՌ]"ͽʩ΍aϩćÁٙǁƤ֧0اԆؕޮɹ°ƩȘ:΍ԍݡC|ޭ׵ãѧҜҨĒiږˉÂʈ
+ֶƈ٭jۙՅڴɦӵءڀяƠí̱Ȭȶةߊſʓќķ߰ԨĸƟÉ̃Ւּƹ׀pӤ΄ŝҲсķŜ֩˄Ḁ̌ߣ͌"ȉО܆bԺڙ̤ѢʅׯӦۮҎ̰ɠUѬހ׀ĔX!%˦ЋɈ΅ģڊ߸ӎѨطՆ!՟ũΣ͚ɭԉʸĪڌجȖ¢̈Âhȋ ɛȡҪëƾޗɹާ͛֐ˌтԼјцȕäč݆ɣHҏ̫ĘءȀТʑA/ɂج҄ȍTĬʒT0ЅYб߲ʈ֖ՇĄŞމȷҪȎҸȃ˘ڬɕĈ¤ƙЀՙʑҪճِ2۔ѳńĬџ˰Ď٭ܠīʔՖ֬ΨҮӔƗԑ۞ǉ˘НՉŁȅڐQԈɀĴĐ؈˯̥́ԱЦvѐؘ̝ 2Ȧ٥҃ȌͅфФ̈́Ω̢Н֮Ɓ ǂȩʪîٞ8ƃTĀďپĒՎɿäŧŧȨƹЦŖזޭɇ̡ƳɩݤŔʥ˟ѠپعʁȺŠز҈ѿƘʆȡ֢ЊƙۙƫքߨĖ݋Т̧هޓܡǺեɾãûƖۇԘ1ӈȩƗϱ̿΃ڕگʳΝʨY؈Ժԇ̕ϓӕʩ҂ѐצե±ÜŔΡ¶ԀAǬϖݓŬظٌ҇ɐ`ךՄ׼§̩˫ҨҙǁۀҝֶˏŮܱ֬ЀʁԾШ׭ЀЁթЃаýȈΐܹӱ̘ցНτ*րƏ̗ژöƌ¢͛ϋٰΓЈˆ٨ׄɹȖ̂ղвبŋҿщȵҪèӝ֩ђԄϗĘư˱̀ɂȒԇƓ̈ոюυ̋ƀĸݯٚñф؏؄ѻւ̘֒ЃѥƆޭԊǇϩ&̦н̥Ņ%ۤ،ʰÄߊϿʷ݀³֌ЂٙëÚņŲӫцقݖ֧Ĝ_ȁ9˫Ȁȑɰƌ+о$ưς͂ΛH:֋Dãې̸҆ٓƮ̷ً̍рǘņ׮ǨӊǘɃ߆ҥВȝɈ߹ݿԇɁĄ̃¬Ͽ
+2024-11-29 21:53:19,372 - INFO - 172.20.0.1 [29/Nov/2024:21:53:19 +0000] "POST / HTTP/1.1" 200 12062 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 21:55:24,431 - INFO - GET запрос получен.
+2024-11-29 21:55:24,431 - INFO - 172.20.0.1 [29/Nov/2024:21:55:24 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:03:41,894 - INFO - GET запрос получен.
+2024-11-29 22:03:41,904 - INFO - 172.20.0.1 [29/Nov/2024:22:03:41 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:04:03,529 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:04:03,529 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуй
+2024-11-29 22:04:03,536 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:04:03,616 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуй.
+2024-11-29 22:04:03,968 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:04:03,979 - INFO - 172.20.0.1 [29/Nov/2024:22:04:03 +0000] "POST / HTTP/1.1" 200 2617536 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:04:04,859 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:04:04,867 - INFO - 172.20.0.1 [29/Nov/2024:22:04:04 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:04:05,832 - INFO - GET запрос получен.
+2024-11-29 22:04:05,833 - INFO - 172.20.0.1 [29/Nov/2024:22:04:05 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:04:21,054 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:04:21,054 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:04:21,054 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:04:21,054 - INFO - opened_img.size=(1200, 800)
+2024-11-29 22:04:21,147 - INFO - Изображение декодировано методом dct. Текст: рCй хуй хуй хЂЙ хуй хуй хуй ەуйхуй хуй хуЙĠхуйхуй хуй хУй хуйхуй хуй	љуй хуйхуй хуй хуй хуйхуй ёяѹ хуй хуйхуй хуй хуй хуйххعĠхуй хуй хуйхӃѱ хуй хуй ху¹ԃй хуй хуй хуихуй хуй хуЙ`цуйхуй хуй хуе(EуйхуԹ хуй хѻف хуйEуй хуйzۆ̓й хуйѕуй хсҹЛ˽сԹ!э҂ԩAуй сѓȪ0]уй"єуйхубĤ٥ĎԹ ЅыٔхыиѠтؽӒÅՃй ѤӗА(хّعхѦ½Ѐхыи܁фй ՅSй߯ٗֽϰ¸Ǉד$ּ(٧˘̉̆lä׋ْ.Ф˛ȓȴȖĽݦƈΗڴĕհƣݔݗǎӐޘіΧɅȴӣҁԤɄΝՌ]"ͽʩ΍aϩćÁٙǁƤ֧0اԆؕޮɹ°ƩȘ:΍ԍݡC|ޭ׵ãѧҜҨĒiږˉÂʈ
+ֶƈ٭jۙՅڴɦӵءڀяƠí̱Ȭȶةߊſʓќķ߰ԨĸƟÉ̃Ւּƹ׀pӤ΄ŝҲсķŜ֩˄Ḁ̌ߣ͌"ȉО܆bԺڙ̤ѢʅׯӦۮҎ̰ɠUѬހ׀ĔX!%˦ЋɈ΅ģڊ߸ӎѨطՆ!՟ũΣ͚ɭԉʸĪڌجȖ¢̈Âhȋ ɛȡҪëƾޗɹާ͛֐ˌтԼјцȕäč݆ɣHҏ̫ĘءȀТʑA/ɂج҄ȍTĬʒT0ЅYб߲ʈ֖ՇĄŞމȷҪȎҸȃ˘ڬɕĈ¤ƙЀՙʑҪճِ2۔ѳńĬџ˰Ď٭ܠīʔՖ֬ΨҮӔƗԑ۞ǉ˘НՉŁȅڐQԈɀĴĐ؈˯̥́ԱЦvѐؘ̝ 2Ȧ٥҃ȌͅфФ̈́Ω̢Н֮Ɓ ǂȩʪîٞ8ƃTĀďپĒՎɿäŧŧȨƹЦŖזޭɇ̡ƳɩݤŔʥ˟ѠپعʁȺŠز҈ѿƘʆȡ֢ЊƙۙƫքߨĖ݋Т̧هޓܡǺեɾãûƖۇԘ1ӈȩƗϱ̿΃ڕگʳΝʨY؈Ժԇ̕ϓӕʩ҂ѐצե±ÜŔΡ¶ԀAǬϖݓŬظٌ҇ɐ`ךՄ׼§̩˫ҨҙǁۀҝֶˏŮܱ֬ЀʁԾШ׭ЀЁթЃаýȈΐܹӱ̘ցНτ*րƏ̗ژöƌ¢͛ϋٰΓЈˆ٨ׄɹȖ̂ղвبŋҿщȵҪèӝ֩ђԄϗĘư˱̀ɂȒԇƓ̈ոюυ̋ƀĸݯٚñф؏؄ѻւ̘֒ЃѥƆޭԊǇϩ&̦н̥Ņ%ۤ،ʰÄߊϿʷ݀³֌ЂٙëÚņŲӫцقݖ֧Ĝ_ȁ9˫Ȁȑɰƌ+о$ưς͂ΛH:֋Dãې̸҆ٓƮ̷ً̍рǘņ׮ǨӊǘɃ߆ҥВȝɈ߹ݿԇɁĄ̃¬Ͽ
+2024-11-29 22:04:21,148 - INFO - 172.20.0.1 [29/Nov/2024:22:04:21 +0000] "POST / HTTP/1.1" 200 12082 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:09:42,450 - INFO - GET запрос получен.
+2024-11-29 22:09:42,455 - INFO - 172.20.0.1 [29/Nov/2024:22:09:42 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:09:42,929 - INFO - GET запрос получен.
+2024-11-29 22:09:42,930 - INFO - 172.20.0.1 [29/Nov/2024:22:09:42 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:10:01,885 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:10:01,885 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуй
+2024-11-29 22:10:01,892 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:10:01,996 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуй.
+2024-11-29 22:10:02,364 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:10:02,377 - INFO - 172.20.0.1 [29/Nov/2024:22:10:01 +0000] "POST / HTTP/1.1" 200 2617496 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:10:03,557 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:10:03,567 - INFO - 172.20.0.1 [29/Nov/2024:22:10:03 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:10:04,967 - INFO - GET запрос получен.
+2024-11-29 22:10:04,969 - INFO - 172.20.0.1 [29/Nov/2024:22:10:04 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:10:18,351 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:10:18,351 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:10:18,352 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:10:18,352 - INFO - opened_img.size=(1200, 800)
+2024-11-29 22:10:18,384 - INFO - Изображение декодировано методом dct. Текст: рCй хуй хуй хЂЙ хуй хуй хуй
+2024-11-29 22:10:18,385 - INFO - 172.20.0.1 [29/Nov/2024:22:10:18 +0000] "POST / HTTP/1.1" 200 10393 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:10:23,655 - INFO - GET запрос получен.
+2024-11-29 22:10:23,656 - INFO - 172.20.0.1 [29/Nov/2024:22:10:23 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:11:00,953 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:11:00,953 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй
+2024-11-29 22:11:00,954 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:11:00,994 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй.
+2024-11-29 22:11:01,376 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:11:01,387 - INFO - 172.20.0.1 [29/Nov/2024:22:11:00 +0000] "POST / HTTP/1.1" 200 2566628 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:11:02,587 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:11:02,592 - INFO - 172.20.0.1 [29/Nov/2024:22:11:02 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:11:04,392 - INFO - GET запрос получен.
+2024-11-29 22:11:04,393 - INFO - 172.20.0.1 [29/Nov/2024:22:11:04 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:11:10,610 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:11:10,610 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:11:10,610 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:11:10,610 - INFO - opened_img.size=(1200, 800)
+2024-11-29 22:11:10,640 - INFO - Изображение декодировано методом dct. Текст: рCй
+2024-11-29 22:11:10,641 - INFO - 172.20.0.1 [29/Nov/2024:22:11:10 +0000] "POST / HTTP/1.1" 200 10351 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:11:52,783 - INFO - GET запрос получен.
+2024-11-29 22:11:52,784 - INFO - 172.20.0.1 [29/Nov/2024:22:11:52 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:12:02,355 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:12:02,355 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй
+2024-11-29 22:12:02,355 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:12:02,462 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй.
+2024-11-29 22:12:03,293 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:12:03,317 - INFO - 172.20.0.1 [29/Nov/2024:22:12:02 +0000] "POST / HTTP/1.1" 200 5672496 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:12:04,415 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:12:04,421 - INFO - 172.20.0.1 [29/Nov/2024:22:12:04 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:12:05,795 - INFO - GET запрос получен.
+2024-11-29 22:12:05,798 - INFO - 172.20.0.1 [29/Nov/2024:22:12:05 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:12:17,242 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:12:17,243 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:12:17,243 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:12:17,243 - INFO - opened_img.size=(2000, 1333)
+2024-11-29 22:12:17,328 - INFO - Изображение декодировано методом dct. Текст: хуй
+2024-11-29 22:12:17,330 - INFO - 172.20.0.1 [29/Nov/2024:22:12:17 +0000] "POST / HTTP/1.1" 200 10352 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:12:29,328 - INFO - GET запрос получен.
+2024-11-29 22:12:29,330 - INFO - 172.20.0.1 [29/Nov/2024:22:12:29 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:12:54,853 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:12:54,853 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй хуй хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй
+2024-11-29 22:12:54,853 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:12:54,987 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй хуй хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй.
+2024-11-29 22:12:55,791 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:12:55,814 - INFO - 172.20.0.1 [29/Nov/2024:22:12:54 +0000] "POST / HTTP/1.1" 200 5727884 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:12:57,076 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:12:57,082 - INFO - 172.20.0.1 [29/Nov/2024:22:12:57 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:12:58,242 - INFO - GET запрос получен.
+2024-11-29 22:12:58,243 - INFO - 172.20.0.1 [29/Nov/2024:22:12:58 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:13:06,284 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:13:06,284 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:13:06,284 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:13:06,285 - INFO - opened_img.size=(2000, 1333)
+2024-11-29 22:13:06,384 - INFO - Изображение декодировано методом dct. Текст: хуй хуй хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй
+2024-11-29 22:13:06,385 - INFO - 172.20.0.1 [29/Nov/2024:22:13:06 +0000] "POST / HTTP/1.1" 200 10789 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:13:53,044 - INFO - GET запрос получен.
+2024-11-29 22:13:53,050 - INFO - 172.20.0.1 [29/Nov/2024:22:13:53 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:14:12,234 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:14:12,234 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуй хуй
+2024-11-29 22:14:12,241 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:14:12,309 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуй хуй.
+2024-11-29 22:14:12,673 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:14:12,686 - INFO - 172.20.0.1 [29/Nov/2024:22:14:12 +0000] "POST / HTTP/1.1" 200 2625648 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:14:15,414 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:14:15,424 - INFO - 172.20.0.1 [29/Nov/2024:22:14:15 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:14:16,433 - INFO - GET запрос получен.
+2024-11-29 22:14:16,434 - INFO - 172.20.0.1 [29/Nov/2024:22:14:16 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:14:23,673 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:14:23,673 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:14:23,673 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:14:23,673 - INFO - opened_img.size=(1200, 800)
+2024-11-29 22:14:23,724 - INFO - Изображение декодировано методом dct. Текст: хуй хуй єуй"хуй хуйхуй0хуЙ хуй хуй"хЃйхՃй хуй مѓй хуйȠхуйхуй مуйРхуй хуй хуйхӃй хуй хуй хуй сЃйڅуй хуйРхуй"Dљ9 хуйхуи хуܑ`эуй хуйcɇՋйёՄԹ хуй хفИՅрسȈхуйхуй%с٥ ݅ۺԹ хуй хۣڱȀը΍]ηߐԢОЮāҘǭءѤɩkŎʞۺٮ͠ՑġӍׅʘϝʈǠņץ·ƺĳάɢʠ=щՙԫÀֺ͊ȋħȨ˚ր׋Ǉܟ̜͗ρغ«ì$Б	ɋȑƲ֔ՐӮɄը͓ڄ`їՋќ˛Ўϕ̊߱ۢԻŜЖ܄ծ˓یه˔Ӵѭȅ֗τҐ
+2024-11-29 22:14:23,725 - INFO - 172.20.0.1 [29/Nov/2024:22:14:23 +0000] "POST / HTTP/1.1" 200 10864 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:14:56,597 - INFO - GET запрос получен.
+2024-11-29 22:14:56,602 - INFO - 172.20.0.1 [29/Nov/2024:22:14:56 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:08,319 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:15:08,320 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй
+2024-11-29 22:15:08,325 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:15:08,378 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй.
+2024-11-29 22:15:08,737 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:15:08,749 - INFO - 172.20.0.1 [29/Nov/2024:22:15:08 +0000] "POST / HTTP/1.1" 200 2574384 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:09,794 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:15:09,802 - INFO - 172.20.0.1 [29/Nov/2024:22:15:09 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:11,346 - INFO - GET запрос получен.
+2024-11-29 22:15:11,347 - INFO - 172.20.0.1 [29/Nov/2024:22:15:11 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:19,194 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:15:19,194 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:15:19,194 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:15:19,194 - INFO - opened_img.size=(1200, 800)
+2024-11-29 22:15:19,230 - INFO - Изображение декодировано методом dct. Текст: хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй
+2024-11-29 22:15:19,231 - INFO - 172.20.0.1 [29/Nov/2024:22:15:19 +0000] "POST / HTTP/1.1" 200 10482 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:25,958 - INFO - GET запрос получен.
+2024-11-29 22:15:25,959 - INFO - 172.20.0.1 [29/Nov/2024:22:15:25 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:38,043 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:15:38,043 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй
+2024-11-29 22:15:38,043 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:15:38,169 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуйхуй хуй хуй хуй хуй.
+2024-11-29 22:15:39,004 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:15:39,030 - INFO - 172.20.0.1 [29/Nov/2024:22:15:38 +0000] "POST / HTTP/1.1" 200 5698376 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:40,158 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:15:40,162 - INFO - 172.20.0.1 [29/Nov/2024:22:15:40 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:41,699 - INFO - GET запрос получен.
+2024-11-29 22:15:41,700 - INFO - 172.20.0.1 [29/Nov/2024:22:15:41 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:15:50,738 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:15:50,738 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:15:50,738 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:15:50,738 - INFO - opened_img.size=(2000, 1333)
+2024-11-29 22:15:50,831 - INFO - Изображение декодировано методом dct. Текст: хуй хуй مٓй хуй хуйхуй0хуй хуй ѕуй ՍуйхуйȠхтҽĠхуй хуй хуйхуй хуй ху»Ƞхуй хуйхӣй фуй хуѹ хый хуйхуй хуй хуй хуع хѣйхуй хуй ѕуй مуй хуй
+2024-11-29 22:15:50,832 - INFO - 172.20.0.1 [29/Nov/2024:22:15:50 +0000] "POST / HTTP/1.1" 200 10587 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:16:41,219 - INFO - GET запрос получен.
+2024-11-29 22:16:41,227 - INFO - 172.20.0.1 [29/Nov/2024:22:16:41 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:17:05,011 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:17:05,011 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуй
+2024-11-29 22:17:05,017 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:17:05,135 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: хуй хуй хуй хуй хуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуйхуй хуй хуй хуй.
+2024-11-29 22:17:05,982 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:17:06,010 - INFO - 172.20.0.1 [29/Nov/2024:22:17:04 +0000] "POST / HTTP/1.1" 200 5690664 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:17:07,164 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:17:07,175 - INFO - 172.20.0.1 [29/Nov/2024:22:17:07 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:17:08,105 - INFO - GET запрос получен.
+2024-11-29 22:17:08,106 - INFO - 172.20.0.1 [29/Nov/2024:22:17:08 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:17:15,647 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:17:15,647 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:17:15,647 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:17:15,647 - INFO - opened_img.size=(2000, 1333)
+2024-11-29 22:17:15,735 - INFO - Изображение декодировано методом dct. Текст: хуй хуй хуй хуй хуй
+2024-11-29 22:17:15,738 - INFO - 172.20.0.1 [29/Nov/2024:22:17:15 +0000] "POST / HTTP/1.1" 200 10380 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:18:12,107 - INFO - GET запрос получен.
+2024-11-29 22:18:12,116 - INFO - 172.20.0.1 [29/Nov/2024:22:18:12 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:18:38,884 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:18:38,884 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=encoding хуй абвгдежзийклмнопрст
+2024-11-29 22:18:38,891 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:18:39,003 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: encoding хуй абвгдежзийклмнопрст.
+2024-11-29 22:18:39,851 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:18:39,877 - INFO - 172.20.0.1 [29/Nov/2024:22:18:38 +0000] "POST / HTTP/1.1" 200 5680096 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:18:41,014 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:18:41,024 - INFO - 172.20.0.1 [29/Nov/2024:22:18:41 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:18:42,244 - INFO - GET запрос получен.
+2024-11-29 22:18:42,246 - INFO - 172.20.0.1 [29/Nov/2024:22:18:42 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:18:49,148 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:18:49,148 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:18:49,148 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:18:49,149 - INFO - opened_img.size=(2000, 1333)
+2024-11-29 22:18:49,236 - INFO - Изображение декодировано методом dct. Текст: encoding хуй абвгдежзийклмнопрст
+2024-11-29 22:18:49,237 - INFO - 172.20.0.1 [29/Nov/2024:22:18:49 +0000] "POST / HTTP/1.1" 200 10400 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:19:04,092 - INFO - GET запрос получен.
+2024-11-29 22:19:04,094 - INFO - 172.20.0.1 [29/Nov/2024:22:19:04 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:19:23,044 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:19:23,044 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=dct, input_text=encoding хуй абвгдежзийклмнопрст
+2024-11-29 22:19:23,045 - INFO - Начата обработка изображения с текстом.
+2024-11-29 22:19:23,091 - INFO - Закодирован текст в изображение с помощью меода dct. Текст: encoding хуй абвгдежзийклмнопрст.
+2024-11-29 22:19:23,458 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-29 22:19:23,469 - INFO - 172.20.0.1 [29/Nov/2024:22:19:23 +0000] "POST / HTTP/1.1" 200 2578008 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:19:24,485 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-29 22:19:24,488 - INFO - 172.20.0.1 [29/Nov/2024:22:19:24 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:19:25,438 - INFO - GET запрос получен.
+2024-11-29 22:19:25,439 - INFO - 172.20.0.1 [29/Nov/2024:22:19:25 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:19:54,192 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 22:19:54,192 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=dct, input_text=
+2024-11-29 22:19:54,192 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='dct'.
+2024-11-29 22:19:54,192 - INFO - opened_img.size=(1200, 800)
+2024-11-29 22:19:54,226 - INFO - Изображение декодировано методом dct. Текст: edcoding хуй бҷаѓдежзийклммЖп٠
+2024-11-29 22:19:54,227 - INFO - 172.20.0.1 [29/Nov/2024:22:19:54 +0000] "POST / HTTP/1.1" 200 10396 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 22:20:42,761 - INFO - GET запрос получен.
+2024-11-29 22:20:42,762 - INFO - 172.20.0.1 [29/Nov/2024:22:20:42 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:20:56,087 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "/usr/local/lib/python3.10/site-packages/soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "/usr/local/lib/python3.10/site-packages/soundfile.py", line 1216, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening '/app/stego/frontend/audio_neural/input_secret.wav': System error.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "/app/stego/frontend/views.py", line 53, in __init__
+    self.audio_neural = AudioNeural()
+  File "/app/stego/frontend/audio_neural/predict.py", line 20, in __init__
+    self.secret_in = utils.convert_wav_to_stft_spec(self.secret)
+  File "/app/stego/frontend/audio_neural/utils.py", line 156, in convert_wav_to_stft_spec
+    audio, sample_rate = librosa.load(path_to_wav, sr=sample_rate)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "/usr/local/lib/python3.10/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/usr/local/lib/python3.10/site-packages/librosa/util/decorators.py", line 59, in __wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "/usr/local/lib/python3.10/site-packages/audioread/__init__.py", line 127, in audio_open
+    return BackendClass(path)
+  File "/usr/local/lib/python3.10/site-packages/audioread/rawread.py", line 59, in __init__
+    self._fh = open(filename, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/app/stego/frontend/audio_neural/input_secret.wav'
+2024-11-29 23:20:56,091 - INFO - 172.20.0.1 [29/Nov/2024:23:20:55 +0000] "GET / HTTP/1.1" 500 335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:21:11,024 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "/usr/local/lib/python3.10/site-packages/soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "/usr/local/lib/python3.10/site-packages/soundfile.py", line 1216, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening '/app/stego/frontend/audio_neural/input_secret.wav': System error.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "/app/stego/frontend/views.py", line 53, in __init__
+    self.audio_neural = AudioNeural()
+  File "/app/stego/frontend/audio_neural/predict.py", line 20, in __init__
+    self.secret_in = utils.convert_wav_to_stft_spec(self.secret)
+  File "/app/stego/frontend/audio_neural/utils.py", line 156, in convert_wav_to_stft_spec
+    audio, sample_rate = librosa.load(path_to_wav, sr=sample_rate)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "/usr/local/lib/python3.10/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/usr/local/lib/python3.10/site-packages/librosa/util/decorators.py", line 59, in __wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "/usr/local/lib/python3.10/site-packages/audioread/__init__.py", line 127, in audio_open
+    return BackendClass(path)
+  File "/usr/local/lib/python3.10/site-packages/audioread/rawread.py", line 59, in __init__
+    self._fh = open(filename, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/app/stego/frontend/audio_neural/input_secret.wav'
+2024-11-29 23:21:11,025 - INFO - 172.20.0.1 [29/Nov/2024:23:21:11 +0000] "GET / HTTP/1.1" 500 335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:21:12,388 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "/usr/local/lib/python3.10/site-packages/soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "/usr/local/lib/python3.10/site-packages/soundfile.py", line 1216, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening '/app/stego/frontend/audio_neural/input_secret.wav': System error.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "/app/stego/frontend/views.py", line 53, in __init__
+    self.audio_neural = AudioNeural()
+  File "/app/stego/frontend/audio_neural/predict.py", line 20, in __init__
+    self.secret_in = utils.convert_wav_to_stft_spec(self.secret)
+  File "/app/stego/frontend/audio_neural/utils.py", line 156, in convert_wav_to_stft_spec
+    audio, sample_rate = librosa.load(path_to_wav, sr=sample_rate)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "/usr/local/lib/python3.10/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/usr/local/lib/python3.10/site-packages/librosa/util/decorators.py", line 59, in __wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/librosa/core/audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "/usr/local/lib/python3.10/site-packages/audioread/__init__.py", line 127, in audio_open
+    return BackendClass(path)
+  File "/usr/local/lib/python3.10/site-packages/audioread/rawread.py", line 59, in __init__
+    self._fh = open(filename, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/app/stego/frontend/audio_neural/input_secret.wav'
+2024-11-29 23:21:12,389 - INFO - 172.20.0.1 [29/Nov/2024:23:21:12 +0000] "GET / HTTP/1.1" 500 335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:23:22,656 - INFO - GET запрос получен.
+2024-11-29 23:23:22,664 - INFO - 172.20.0.1 [29/Nov/2024:23:23:22 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:23:22,681 - INFO - 172.20.0.1 [29/Nov/2024:23:23:22 +0000] "GET /static/final_logo.svg HTTP/1.1" 304 178 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:23:22,684 - INFO - 172.20.0.1 [29/Nov/2024:23:23:22 +0000] "GET /static/mipt.svg HTTP/1.1" 304 178 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:23:44,010 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 23:23:44,010 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=neural, input_text=хуй
+2024-11-29 23:23:44,015 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 23:23:44,017 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 23:23:45,310 - ERROR - Ошибка обработки файла: local variable 'secret_in' referenced before assignment
+2024-11-29 23:23:45,312 - INFO - 172.20.0.1 [29/Nov/2024:23:23:43 +0000] "POST / HTTP/1.1" 200 13157 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:25:20,294 - INFO - GET запрос получен.
+2024-11-29 23:25:20,307 - INFO - 172.20.0.1 [29/Nov/2024:23:25:20 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:25:31,658 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 23:25:31,659 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=neural, input_text=хуй
+2024-11-29 23:25:31,663 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 23:25:31,667 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 23:25:33,426 - WARNING - You are casting an input of type complex64 to an incompatible dtype float32.  This will discard the imaginary part and may not be what you intended.
+2024-11-29 23:25:33,427 - WARNING - You are casting an input of type complex64 to an incompatible dtype float32.  This will discard the imaginary part and may not be what you intended.
+2024-11-29 23:25:34,904 - INFO - Spectrogram converted to wav: /app/stego/frontend/audio_neural/predictions/output_cover_tmp_file
+2024-11-29 23:25:34,907 - INFO - Spectrogram converted to wav: /app/stego/frontend/audio_neural/predictions/output_secret_input_secret.wav
+2024-11-29 23:25:34,907 - INFO - Аудиофайл закодирован с помощью NEURAL. result=None
+2024-11-29 23:25:34,908 - INFO - 172.20.0.1 [29/Nov/2024:23:25:31 +0000] "POST / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:27:04,723 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 23:27:04,723 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=neural, input_text=хуй
+2024-11-29 23:27:04,727 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 23:27:04,749 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 23:27:06,516 - WARNING - You are casting an input of type complex64 to an incompatible dtype float32.  This will discard the imaginary part and may not be what you intended.
+2024-11-29 23:27:06,517 - WARNING - You are casting an input of type complex64 to an incompatible dtype float32.  This will discard the imaginary part and may not be what you intended.
+2024-11-29 23:27:07,967 - INFO - Spectrogram converted to wav: /app/stego/frontend/audio_neural/predictions/output_cover_tmp_file
+2024-11-29 23:27:07,970 - INFO - Spectrogram converted to wav: /app/stego/frontend/audio_neural/predictions/output_secret_input_secret.wav
+2024-11-29 23:27:07,970 - INFO - Аудиофайл закодирован с помощью NEURAL. result='/app/stego/frontend/audio_neural/predictions/output_cover_tmp_file'
+2024-11-29 23:27:07,975 - INFO - 172.20.0.1 [29/Nov/2024:23:27:04 +0000] "POST / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:30:00,330 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 23:30:00,331 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=neural, input_text=хуй
+2024-11-29 23:30:00,335 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 23:30:00,340 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 23:30:02,192 - WARNING - You are casting an input of type complex64 to an incompatible dtype float32.  This will discard the imaginary part and may not be what you intended.
+2024-11-29 23:30:02,193 - WARNING - You are casting an input of type complex64 to an incompatible dtype float32.  This will discard the imaginary part and may not be what you intended.
+2024-11-29 23:30:03,666 - INFO - Spectrogram converted to wav: /app/stego/frontend/audio_neural/predictions/output_cover_tmp_file.wav
+2024-11-29 23:30:03,670 - INFO - Spectrogram converted to wav: /app/stego/frontend/audio_neural/predictions/output_secret_input_secret.wav
+2024-11-29 23:30:03,670 - INFO - Аудиофайл закодирован с помощью NEURAL. result='/app/stego/frontend/audio_neural/predictions/output_cover_tmp_file.wav'
+2024-11-29 23:30:03,675 - INFO - 172.20.0.1 [29/Nov/2024:23:30:00 +0000] "POST / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:32:28,208 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 23:32:28,208 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=neural, input_text=пизда
+2024-11-29 23:32:28,212 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-29 23:32:28,212 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-29 23:32:30,034 - WARNING - You are casting an input of type complex64 to an incompatible dtype float32.  This will discard the imaginary part and may not be what you intended.
+2024-11-29 23:32:30,035 - WARNING - You are casting an input of type complex64 to an incompatible dtype float32.  This will discard the imaginary part and may not be what you intended.
+2024-11-29 23:32:31,461 - INFO - Spectrogram converted to wav: /app/stego/frontend/audio_neural/predictions/output_cover_tmp_file.wav
+2024-11-29 23:32:31,465 - INFO - Spectrogram converted to wav: /app/stego/frontend/audio_neural/predictions/output_secret_input_secret.wav
+2024-11-29 23:32:31,465 - INFO - Аудиофайл закодирован с помощью NEURAL. result='/app/stego/frontend/audio_neural/predictions/output_cover_tmp_file.wav'
+2024-11-29 23:32:31,466 - INFO - Аудиофайл успешно обработан и сохранён: /app/stego/frontend/audio_neural/predictions/output_cover_tmp_file.wav
+2024-11-29 23:32:31,474 - INFO - 172.20.0.1 [29/Nov/2024:23:32:28 +0000] "POST / HTTP/1.1" 200 864023 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:32:33,306 - INFO - 172.20.0.1 [29/Nov/2024:23:32:33 +0000] "GET /favicon.ico HTTP/1.1" 404 173 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:32:43,480 - INFO - GET запрос получен.
+2024-11-29 23:32:43,480 - INFO - 172.20.0.1 [29/Nov/2024:23:32:43 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-29 23:32:56,906 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-29 23:32:56,906 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=neural, input_text=
+2024-11-29 23:32:56,906 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='neural'.
+2024-11-29 23:32:56,909 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.mp3.
+2024-11-29 23:32:56,914 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-29 23:32:56,914 - INFO - Аудиофайл раскодирован с помощью LSB. decoded_text='/app/stego/frontend/audio_neural/predictions/output_secret_input_secret.wav'
+2024-11-29 23:32:56,915 - INFO - 172.20.0.1 [29/Nov/2024:23:32:56 +0000] "POST / HTTP/1.1" 200 10421 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:10:03,929 - INFO - GET запрос получен.
+2024-11-30 00:10:03,938 - INFO - 172.20.0.1 [30/Nov/2024:00:10:03 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:51:47,417 - INFO - GET запрос получен.
+2024-11-30 00:51:47,429 - INFO - 172.20.0.1 [30/Nov/2024:00:51:47 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:52:07,321 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 00:52:07,321 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=hello мир
+2024-11-30 00:52:07,332 - INFO - Начата обработка изображения с текстом.
+2024-11-30 00:52:07,516 - INFO - Закодирован текст в изображение с помощью меода neural image. Текст: hello мир.
+2024-11-30 00:52:07,530 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-30 00:52:07,531 - INFO - 172.20.0.1 [30/Nov/2024:00:52:07 +0000] "POST / HTTP/1.1" 200 72562 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:52:09,425 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-30 00:52:09,435 - INFO - 172.20.0.1 [30/Nov/2024:00:52:09 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 299 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:52:23,069 - INFO - GET запрос получен.
+2024-11-30 00:52:23,070 - INFO - 172.20.0.1 [30/Nov/2024:00:52:23 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:52:31,752 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 00:52:31,752 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-30 00:52:31,752 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-30 00:52:31,753 - ERROR - Ошибка обработки файла: local variable 'opened_img' referenced before assignment
+2024-11-30 00:52:31,754 - INFO - 172.20.0.1 [30/Nov/2024:00:52:31 +0000] "POST / HTTP/1.1" 200 13158 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:53:27,930 - INFO - GET запрос получен.
+2024-11-30 00:53:27,944 - INFO - 172.20.0.1 [30/Nov/2024:00:53:27 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:53:46,485 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 00:53:46,486 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=тестирование system
+2024-11-30 00:53:46,491 - INFO - Начата обработка изображения с текстом.
+2024-11-30 00:54:00,920 - ERROR - Ошибка обработки файла: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-30 00:54:00,921 - INFO - 172.20.0.1 [30/Nov/2024:00:53:46 +0000] "POST / HTTP/1.1" 200 13202 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:56:49,144 - INFO - GET запрос получен.
+2024-11-30 00:56:49,172 - INFO - 172.20.0.1 [30/Nov/2024:00:56:49 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:56:59,996 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 00:56:59,996 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=всем salam
+2024-11-30 00:57:00,007 - INFO - Начата обработка изображения с текстом.
+2024-11-30 00:57:00,287 - INFO - Закодирован текст в изображение с помощью меода neural image. Текст: всем salam.
+2024-11-30 00:57:00,324 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-30 00:57:00,325 - INFO - 172.20.0.1 [30/Nov/2024:00:56:59 +0000] "POST / HTTP/1.1" 200 98670 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:57:02,160 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-30 00:57:02,172 - INFO - 172.20.0.1 [30/Nov/2024:00:57:02 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 300 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:57:03,964 - INFO - GET запрос получен.
+2024-11-30 00:57:03,966 - INFO - 172.20.0.1 [30/Nov/2024:00:57:03 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 00:57:15,002 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 00:57:15,002 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-30 00:57:15,002 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-30 00:57:15,002 - INFO - opened_img.size=(325, 174)
+2024-11-30 00:57:15,002 - ERROR - Ошибка обработки файла: expected str, bytes or os.PathLike object, not NoneType
+2024-11-30 00:57:15,003 - INFO - 172.20.0.1 [30/Nov/2024:00:57:14 +0000] "POST / HTTP/1.1" 200 13149 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:00:20,932 - INFO - GET запрос получен.
+2024-11-30 01:00:20,942 - INFO - 172.20.0.1 [30/Nov/2024:01:00:20 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:00:35,253 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:00:35,253 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=член aasgsfd
+2024-11-30 01:00:35,260 - INFO - Начата обработка изображения с текстом.
+2024-11-30 01:00:42,631 - INFO - Закодирован текст в изображение с помощью меода neural image. Текст: член aasgsfd.
+2024-11-30 01:00:43,665 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-30 01:00:43,690 - INFO - 172.20.0.1 [30/Nov/2024:01:00:35 +0000] "POST / HTTP/1.1" 200 2985868 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:00:45,030 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-30 01:00:45,043 - INFO - 172.20.0.1 [30/Nov/2024:01:00:45 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:00:46,589 - INFO - GET запрос получен.
+2024-11-30 01:00:46,591 - INFO - 172.20.0.1 [30/Nov/2024:01:00:46 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:00:56,523 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:00:56,524 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-30 01:00:56,524 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-30 01:00:56,524 - INFO - opened_img.size=(1920, 1053)
+2024-11-30 01:00:56,524 - ERROR - Ошибка обработки файла: module 'PIL.Image' has no attribute 'save'
+2024-11-30 01:00:56,525 - INFO - 172.20.0.1 [30/Nov/2024:01:00:56 +0000] "POST / HTTP/1.1" 200 13152 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:02:18,189 - INFO - GET запрос получен.
+2024-11-30 01:02:18,201 - INFO - 172.20.0.1 [30/Nov/2024:01:02:18 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:02:45,188 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:02:45,188 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=всем salam
+2024-11-30 01:02:45,196 - INFO - Начата обработка изображения с текстом.
+2024-11-30 01:02:45,493 - INFO - Закодирован текст в изображение с помощью меода neural image. Текст: всем salam.
+2024-11-30 01:02:45,520 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-30 01:02:45,521 - INFO - 172.20.0.1 [30/Nov/2024:01:02:45 +0000] "POST / HTTP/1.1" 200 73022 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:02:46,201 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-30 01:02:46,213 - INFO - 172.20.0.1 [30/Nov/2024:01:02:46 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 299 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:02:47,077 - INFO - GET запрос получен.
+2024-11-30 01:02:47,077 - INFO - 172.20.0.1 [30/Nov/2024:01:02:47 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:02:55,599 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:02:55,599 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-30 01:02:55,599 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-30 01:02:55,600 - INFO - opened_img.size=(304, 193)
+2024-11-30 01:02:55,901 - INFO - Изображение декодировано методом neural. Текст: {"error":"Failed to find message."}
+
+2024-11-30 01:02:55,902 - INFO - 172.20.0.1 [30/Nov/2024:01:02:55 +0000] "POST / HTTP/1.1" 200 10398 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:03:07,885 - INFO - GET запрос получен.
+2024-11-30 01:03:07,885 - INFO - 172.20.0.1 [30/Nov/2024:01:03:07 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:03:42,986 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:03:42,986 - INFO - POST запрос получен: action=encode, stego_type=image, algorithm=neural, input_text=hello world
+2024-11-30 01:03:42,986 - INFO - Начата обработка изображения с текстом.
+2024-11-30 01:03:45,966 - INFO - Закодирован текст в изображение с помощью меода neural image. Текст: hello world.
+2024-11-30 01:03:46,255 - INFO - Изображение успешно обработано и сохранено: /tmp/encoded_image.png
+2024-11-30 01:03:46,270 - INFO - 172.20.0.1 [30/Nov/2024:01:03:42 +0000] "POST / HTTP/1.1" 200 2808752 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:03:47,587 - INFO - Запрос на скачивание файла: /tmp/encoded_image.png
+2024-11-30 01:03:47,591 - INFO - 172.20.0.1 [30/Nov/2024:01:03:47 +0000] "GET /download?file=/tmp/encoded_image.png HTTP/1.1" 200 303 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:03:48,982 - INFO - GET запрос получен.
+2024-11-30 01:03:48,983 - INFO - 172.20.0.1 [30/Nov/2024:01:03:48 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:03:55,925 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:03:55,925 - INFO - POST запрос получен: action=decode, stego_type=image, algorithm=neural, input_text=
+2024-11-30 01:03:55,925 - INFO - Начата декодировка изображения. action='decode', stego_type='image', algorithm='neural'.
+2024-11-30 01:03:55,926 - INFO - opened_img.size=(1200, 800)
+2024-11-30 01:04:21,163 - INFO - Изображение декодировано методом neural. Текст: hello world
+2024-11-30 01:04:21,164 - INFO - 172.20.0.1 [30/Nov/2024:01:03:55 +0000] "POST / HTTP/1.1" 200 10357 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:04:26,775 - INFO - GET запрос получен.
+2024-11-30 01:04:26,776 - INFO - 172.20.0.1 [30/Nov/2024:01:04:26 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:18:34,440 - INFO - GET запрос получен.
+2024-11-30 01:18:34,452 - INFO - 172.20.0.1 [30/Nov/2024:01:18:34 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:18:49,962 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:18:49,962 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=phase, input_text=хуй hello
+2024-11-30 01:18:49,966 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-30 01:18:49,969 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-30 01:18:49,969 - ERROR - Ошибка обработки файла: 'IndexView' object has no attribute 'audiophase'
+2024-11-30 01:18:49,970 - INFO - 172.20.0.1 [30/Nov/2024:01:18:49 +0000] "POST / HTTP/1.1" 200 13158 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:19:36,121 - INFO - GET запрос получен.
+2024-11-30 01:19:36,134 - INFO - 172.20.0.1 [30/Nov/2024:01:19:36 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:19:47,423 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:19:47,423 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=phase, input_text=hello хуй
+2024-11-30 01:19:47,428 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-30 01:19:47,428 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-30 01:19:47,536 - INFO - Аудиофайл закодирован с помощью PHASE. result='steg_audio.wav'
+2024-11-30 01:19:47,541 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.wav
+2024-11-30 01:19:47,562 - INFO - 172.20.0.1 [30/Nov/2024:01:19:47 +0000] "POST / HTTP/1.1" 200 4715624 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:19:49,093 - INFO - 172.20.0.1 [30/Nov/2024:01:19:49 +0000] "GET /favicon.ico HTTP/1.1" 404 173 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:19:52,959 - INFO - Запрос на скачивание файла: /tmp/encoded_audio.wav
+2024-11-30 01:19:52,978 - INFO - 172.20.0.1 [30/Nov/2024:01:19:52 +0000] "GET /download?file=/tmp/encoded_audio.wav HTTP/1.1" 200 305 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:19:57,319 - INFO - GET запрос получен.
+2024-11-30 01:19:57,319 - INFO - 172.20.0.1 [30/Nov/2024:01:19:57 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:20:15,628 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:20:15,628 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:20:15,628 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:20:15,631 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.mp3.
+2024-11-30 01:20:15,636 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:20:15,637 - ERROR - Ошибка обработки файла: 
+2024-11-30 01:20:15,638 - INFO - 172.20.0.1 [30/Nov/2024:01:20:15 +0000] "POST / HTTP/1.1" 200 13094 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:22:25,584 - INFO - GET запрос получен.
+2024-11-30 01:22:25,591 - INFO - 172.20.0.1 [30/Nov/2024:01:22:25 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:22:39,574 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:22:39,574 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:22:39,574 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:22:39,579 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.mp3.
+2024-11-30 01:22:39,583 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:22:39,583 - INFO - temp_file='/tmp/encoded_audio.mp3'
+2024-11-30 01:22:39,585 - ERROR - Ошибка обработки файла: 
+2024-11-30 01:22:39,586 - INFO - 172.20.0.1 [30/Nov/2024:01:22:39 +0000] "POST / HTTP/1.1" 200 13094 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:24:24,406 - INFO - GET запрос получен.
+2024-11-30 01:24:24,416 - INFO - 172.20.0.1 [30/Nov/2024:01:24:24 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:24:32,676 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:24:32,676 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:24:32,676 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:24:32,684 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:24:32,686 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:24:32,686 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:24:32,688 - ERROR - Ошибка обработки файла: 
+2024-11-30 01:24:32,689 - INFO - 172.20.0.1 [30/Nov/2024:01:24:32 +0000] "POST / HTTP/1.1" 200 13094 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:25:39,499 - INFO - GET запрос получен.
+2024-11-30 01:25:39,510 - INFO - 172.20.0.1 [30/Nov/2024:01:25:39 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:25:47,281 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:25:47,281 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:25:47,281 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:25:47,286 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:25:47,291 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:25:47,291 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:25:47,291 - INFO - Path(temp_file).exists()=True
+2024-11-30 01:25:47,293 - ERROR - Ошибка обработки файла: 
+2024-11-30 01:25:47,294 - INFO - 172.20.0.1 [30/Nov/2024:01:25:47 +0000] "POST / HTTP/1.1" 200 13094 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:28:49,800 - INFO - GET запрос получен.
+2024-11-30 01:28:49,816 - INFO - 172.20.0.1 [30/Nov/2024:01:28:49 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:29:04,436 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:29:04,436 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=phase, input_text=hello
+2024-11-30 01:29:04,441 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-30 01:29:04,463 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-30 01:29:04,600 - INFO - Аудиофайл закодирован с помощью PHASE. result='steg_audio.wav'
+2024-11-30 01:29:04,605 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.wav
+2024-11-30 01:29:04,625 - INFO - 172.20.0.1 [30/Nov/2024:01:29:04 +0000] "POST / HTTP/1.1" 200 4715624 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:29:06,003 - INFO - Запрос на скачивание файла: /tmp/encoded_audio.wav
+2024-11-30 01:29:06,013 - INFO - 172.20.0.1 [30/Nov/2024:01:29:06 +0000] "GET /download?file=/tmp/encoded_audio.wav HTTP/1.1" 200 305 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:29:08,080 - INFO - GET запрос получен.
+2024-11-30 01:29:08,081 - INFO - 172.20.0.1 [30/Nov/2024:01:29:08 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:29:14,869 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:29:14,869 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:29:14,869 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:29:14,873 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:29:14,878 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:29:14,878 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:29:14,878 - INFO - Path(temp_file).exists()=True
+2024-11-30 01:29:14,878 - INFO - test
+2024-11-30 01:29:14,879 - INFO - after read
+2024-11-30 01:29:14,879 - ERROR - Ошибка обработки файла: 
+2024-11-30 01:29:14,880 - INFO - 172.20.0.1 [30/Nov/2024:01:29:14 +0000] "POST / HTTP/1.1" 200 13094 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:31:05,840 - INFO - GET запрос получен.
+2024-11-30 01:31:05,850 - INFO - 172.20.0.1 [30/Nov/2024:01:31:05 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:31:13,486 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:31:13,486 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:31:13,486 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:31:13,491 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:31:13,496 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:31:13,496 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:31:13,496 - INFO - Path(temp_file).exists()=True
+2024-11-30 01:31:13,496 - INFO - test
+2024-11-30 01:31:13,498 - INFO - after read: steg_samples=array([[0, 0],
+       [0, 0],
+       [0, 1],
+       ...,
+       [0, 0],
+       [0, 0],
+       [0, 0]], dtype=int16)
+2024-11-30 01:31:13,498 - INFO - Аудиофайл раскодирован с помощью PHASE. decoded_text='assert wrong'
+2024-11-30 01:31:13,499 - INFO - 172.20.0.1 [30/Nov/2024:01:31:13 +0000] "POST / HTTP/1.1" 200 10358 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:34:20,135 - INFO - GET запрос получен.
+2024-11-30 01:34:20,145 - INFO - 172.20.0.1 [30/Nov/2024:01:34:20 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:34:25,851 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:34:25,851 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:34:25,851 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:34:25,855 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:34:25,860 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:34:25,861 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:34:25,861 - INFO - Path(temp_file).exists()=True
+2024-11-30 01:34:25,861 - INFO - test
+2024-11-30 01:34:25,862 - INFO - after read: steg_samples=array([[0, 0],
+       [0, 0],
+       [0, 1],
+       ...,
+       [0, 0],
+       [0, 0],
+       [0, 0]], dtype=int16)
+2024-11-30 01:34:25,862 - ERROR - Ошибка обработки файла: Python integer 100000 out of bounds for int16
+2024-11-30 01:34:25,864 - INFO - 172.20.0.1 [30/Nov/2024:01:34:25 +0000] "POST / HTTP/1.1" 200 13139 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:37:56,876 - INFO - GET запрос получен.
+2024-11-30 01:37:56,888 - INFO - 172.20.0.1 [30/Nov/2024:01:37:56 +0000] "GET / HTTP/1.1" 200 13095 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:38:07,609 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:38:07,609 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:38:07,609 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:38:07,614 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:38:07,614 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:38:07,614 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:38:07,614 - INFO - Path(temp_file).exists()=True
+2024-11-30 01:38:07,614 - INFO - test
+2024-11-30 01:38:07,617 - INFO - after read: steg_samples=array([[0, 0],
+       [0, 0],
+       [0, 1],
+       ...,
+       [0, 0],
+       [0, 0],
+       [0, 0]], dtype=int16)
+2024-11-30 01:38:07,617 - INFO - before for
+2024-11-30 01:38:07,617 - ERROR - Ошибка обработки файла: Python integer 100000 out of bounds for int16
+2024-11-30 01:38:07,618 - INFO - 172.20.0.1 [30/Nov/2024:01:38:07 +0000] "POST / HTTP/1.1" 200 13139 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:40:08,079 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:40:08,079 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:40:08,079 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:40:08,083 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:40:08,088 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:40:08,088 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:40:08,088 - INFO - Path(temp_file).exists()=True
+2024-11-30 01:40:08,088 - INFO - test
+2024-11-30 01:40:08,090 - INFO - after read: steg_samples=array([[0, 0],
+       [0, 0],
+       [0, 1],
+       ...,
+       [0, 0],
+       [0, 0],
+       [0, 0]], dtype=int16)
+2024-11-30 01:40:08,090 - INFO - before for
+2024-11-30 01:40:08,090 - INFO - K=0, i=0, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:40:08,090 - INFO - K=np.int16(0), i=1, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:40:08,090 - INFO - K=np.int16(0), i=2, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:40:08,090 - INFO - K=np.int16(0), i=3, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:40:08,090 - INFO - K=np.int16(0), i=4, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:40:08,090 - INFO - K=np.int16(0), i=5, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:40:08,090 - ERROR - Ошибка обработки файла: Python integer 100000 out of bounds for int16
+2024-11-30 01:40:08,095 - INFO - 172.20.0.1 [30/Nov/2024:01:40:08 +0000] "POST / HTTP/1.1" 200 13139 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:44:10,959 - INFO - GET запрос получен.
+2024-11-30 01:44:10,960 - INFO - 172.20.0.1 [30/Nov/2024:01:44:10 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:44:40,109 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:44:40,109 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=phase, input_text=hello world
+2024-11-30 01:44:40,113 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-30 01:44:40,134 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-30 01:44:40,246 - INFO - Аудиофайл закодирован с помощью PHASE. result='steg_audio.wav'
+2024-11-30 01:44:40,251 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.wav
+2024-11-30 01:44:40,275 - INFO - 172.20.0.1 [30/Nov/2024:01:44:40 +0000] "POST / HTTP/1.1" 200 4715624 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:44:41,401 - INFO - Запрос на скачивание файла: /tmp/encoded_audio.wav
+2024-11-30 01:44:41,413 - INFO - 172.20.0.1 [30/Nov/2024:01:44:41 +0000] "GET /download?file=/tmp/encoded_audio.wav HTTP/1.1" 200 305 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:44:42,841 - INFO - GET запрос получен.
+2024-11-30 01:44:42,842 - INFO - 172.20.0.1 [30/Nov/2024:01:44:42 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:44:49,735 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:44:49,736 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:44:49,736 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:44:49,739 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:44:49,745 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:44:49,745 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:44:49,745 - INFO - Path(temp_file).exists()=True
+2024-11-30 01:44:49,745 - INFO - test
+2024-11-30 01:44:49,746 - INFO - after read: steg_samples=array([[0, 0],
+       [0, 0],
+       [0, 1],
+       ...,
+       [0, 0],
+       [0, 0],
+       [0, 0]], dtype=int16)
+2024-11-30 01:44:49,746 - INFO - before for
+2024-11-30 01:44:49,746 - INFO - K=0, i=0, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:44:49,747 - INFO - K=np.int16(0), i=1, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:44:49,747 - INFO - K=np.int16(0), i=2, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:44:49,747 - INFO - K=np.int16(0), i=3, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:44:49,747 - INFO - K=np.int16(0), i=4, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:44:49,747 - INFO - K=np.int16(0), i=5, steg_samples[-(i+1)]=np.int16(0)
+2024-11-30 01:44:49,747 - ERROR - Ошибка обработки файла: Python integer 100000 out of bounds for int16
+2024-11-30 01:44:49,747 - INFO - 172.20.0.1 [30/Nov/2024:01:44:49 +0000] "POST / HTTP/1.1" 200 13139 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:45:37,947 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:45:37,947 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=phase, input_text=sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk
+2024-11-30 01:45:37,950 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-30 01:45:37,955 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-30 01:45:38,044 - INFO - Аудиофайл закодирован с помощью PHASE. result='steg_audio.wav'
+2024-11-30 01:45:38,052 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.wav
+2024-11-30 01:45:38,073 - INFO - 172.20.0.1 [30/Nov/2024:01:45:37 +0000] "POST / HTTP/1.1" 200 4729288 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:45:49,548 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:45:49,548 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=phase, input_text=sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsksfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsksfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsksfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsksfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk sfkplasdfvpafskjsfdkJFDjfskogjfdakj ksdj fpjsakdfj pdasjpfljlsd kflkspadl fkpskdlfk lpsk
+2024-11-30 01:45:49,552 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-30 01:45:49,553 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-30 01:45:49,646 - INFO - Аудиофайл закодирован с помощью PHASE. result='steg_audio.wav'
+2024-11-30 01:45:49,654 - INFO - Аудиофайл успешно обработан и сохранён: /tmp/encoded_audio.wav
+2024-11-30 01:45:49,675 - INFO - 172.20.0.1 [30/Nov/2024:01:45:49 +0000] "POST / HTTP/1.1" 200 4904052 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:47:05,629 - INFO - GET запрос получен.
+2024-11-30 01:47:05,637 - INFO - 172.20.0.1 [30/Nov/2024:01:47:05 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:47:17,086 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:47:17,087 - INFO - POST запрос получен: action=encode, stego_type=audio, algorithm=phase, input_text=хуй hello
+2024-11-30 01:47:17,090 - INFO - Загруженный аудиофайл сохранен в tmp_file.
+2024-11-30 01:47:17,091 - INFO - Начата обработка аудиофайла с текстом.
+2024-11-30 01:47:17,196 - INFO - Аудиофайл закодирован с помощью PHASE. result='steg_audio.wav'
+2024-11-30 01:47:17,201 - INFO - Аудиофайл успешно обработан и сохранён: steg_audio.wav
+2024-11-30 01:47:17,220 - INFO - 172.20.0.1 [30/Nov/2024:01:47:17 +0000] "POST / HTTP/1.1" 200 4715616 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:47:18,997 - INFO - Запрос на скачивание файла: steg_audio.wav
+2024-11-30 01:47:19,008 - INFO - 172.20.0.1 [30/Nov/2024:01:47:18 +0000] "GET /download?file=steg_audio.wav HTTP/1.1" 200 302 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:47:22,487 - INFO - GET запрос получен.
+2024-11-30 01:47:22,488 - INFO - 172.20.0.1 [30/Nov/2024:01:47:22 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:47:30,743 - INFO - Полученный файл: <_io.BufferedRandom name=10>
+2024-11-30 01:47:30,744 - INFO - POST запрос получен: action=decode, stego_type=audio, algorithm=phase, input_text=
+2024-11-30 01:47:30,744 - INFO - Начата декодировка изображения. action='decode', stego_type='audio', algorithm='phase'.
+2024-11-30 01:47:30,749 - INFO - Загруженный аудиофайл сохранен в /tmp/encoded_audio.wav.
+2024-11-30 01:47:30,750 - INFO - Начата обработка аудиофайла с закодированным текстом.
+2024-11-30 01:47:30,750 - INFO - temp_file='/tmp/encoded_audio.wav'
+2024-11-30 01:47:30,750 - INFO - Path(temp_file).exists()=True
+2024-11-30 01:47:30,750 - INFO - test
+2024-11-30 01:47:30,752 - INFO - after read: steg_samples=array([[ 9707, -9231],
+       [ 9046, -9160],
+       [ 9029, -9441],
+       ...,
+       [    5,     0],
+       [    1,     0],
+       [    2,     0]], dtype=int16)
+2024-11-30 01:47:30,753 - INFO - before for
+2024-11-30 01:47:30,753 - INFO - K=0, i=0, steg_samples[-(i+1)]=np.int16(2)
+2024-11-30 01:47:30,753 - INFO - K=np.int16(2), i=1, steg_samples[-(i+1)]=np.int16(1)
+2024-11-30 01:47:30,753 - INFO - K=np.int16(12), i=2, steg_samples[-(i+1)]=np.int16(5)
+2024-11-30 01:47:30,753 - INFO - K=np.int16(512), i=3, steg_samples[-(i+1)]=np.int16(-1)
+2024-11-30 01:47:30,753 - INFO - before fft
+2024-11-30 01:47:30,753 - INFO - phases.shape=(257,)
+2024-11-30 01:47:30,753 - INFO - secret='хуй hello'
+2024-11-30 01:47:30,753 - INFO - Аудиофайл раскодирован с помощью PHASE. decoded_text='хуй hello'
+2024-11-30 01:47:30,754 - INFO - 172.20.0.1 [30/Nov/2024:01:47:30 +0000] "POST / HTTP/1.1" 200 10358 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+2024-11-30 01:47:37,793 - INFO - GET запрос получен.
+2024-11-30 01:47:37,794 - INFO - 172.20.0.1 [30/Nov/2024:01:47:37 +0000] "GET / HTTP/1.1" 200 13095 "http://0.0.0.0:7777/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"

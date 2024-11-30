@@ -10,7 +10,7 @@ def audio_b64encode(audio_fp: BufferedReader) -> str:
     return b64encode(audio_fp.read()).decode()
 
 
-def audio_to_src(audio_fp: BufferedReader, audio_format: str = "mpeg") -> str:
+def audio_to_src(audio_fp: BufferedReader, audio_format: str = "wav") -> str:
     """Prepare audio file for HTML"""
     base64_audio = audio_b64encode(audio_fp)
     return f"data:audio/{audio_format};base64,{base64_audio}"

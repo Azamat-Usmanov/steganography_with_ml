@@ -1,1 +1,6 @@
+flask
 steganogan
+numpy
+Pillow
+opencv-python
+scikit-image
